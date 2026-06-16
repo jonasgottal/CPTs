@@ -1,0 +1,725 @@
+{
+  "study_size": 611,
+  "groups": [
+    "Control",
+    "Group PM+"
+  ],
+  "group_sizes": {
+    "Control": 306,
+    "Group PM+": 305
+  },
+  "variables": {
+    "continuous": {
+      "Age": {
+        "Control": {
+          "mean": 44.1,
+          "std": 14.0,
+          "median": 45.0,
+          "q1": 33.0,
+          "q3": 54.0,
+          "min_val": 18.0,
+          "max_val": 83.0
+        },
+        "Group PM+": {
+          "mean": 45.5,
+          "std": 14.8,
+          "median": 44.0,
+          "q1": 35.0,
+          "q3": 55.0,
+          "min_val": 18.0,
+          "max_val": 91.0
+        }
+      },
+      "GHQ-12 score": {
+        "Control": {
+          "mean": 20.9,
+          "std": 6.0,
+          "min_val": null,
+          "max_val": null
+        },
+        "Group PM+": {
+          "mean": 21.2,
+          "std": 6.3,
+          "min_val": null,
+          "max_val": null
+        }
+      },
+      "WHODAS score": {
+        "Control": {
+          "mean": 24.6,
+          "std": 6.5
+        },
+        "Group PM+": {
+          "mean": 26.0,
+          "std": 6.8
+        }
+      },
+      "PHQ-9 score": {
+        "Control": {
+          "mean": 11.9,
+          "std": 5.0
+        },
+        "Group PM+": {
+          "mean": 12.7,
+          "std": 4.9
+        }
+      },
+      "PCL score": {
+        "Control": {
+          "mean": 21.8,
+          "std": 7.0
+        },
+        "Group PM+": {
+          "mean": 23.0,
+          "std": 6.8
+        }
+      },
+      "MSPSS score": {
+        "Control": {
+          "mean": 30.7,
+          "std": 9.5
+        },
+        "Group PM+": {
+          "mean": 32.5,
+          "std": 9.9
+        }
+      },
+      "SSS-8 score": {
+        "Control": {
+          "mean": 23.0,
+          "std": 6.7
+        },
+        "Group PM+": {
+          "mean": 23.8,
+          "std": 6.9
+        }
+      },
+      "RTC score": {
+        "Control": {
+          "mean": 26.3,
+          "std": 6.4
+        },
+        "Group PM+": {
+          "mean": 27.5,
+          "std": 6.5
+        }
+      },
+      "Facilitator competency (pretraining)": {
+        "Group PM+": {
+          "median": 44.0,
+          "min_val": 0.0,
+          "max_val": 83.0
+        },
+        "Control": {}
+      },
+      "Facilitator competency (post-training)": {
+        "Group PM+": {
+          "median": 83.0,
+          "min_val": 61.0,
+          "max_val": 100.0
+        },
+        "Control": {}
+      },
+      "Fidelity per session": {
+        "Group PM+": {
+          "median": 2.8,
+          "min_val": 2.5,
+          "max_val": 3.0
+        },
+        "Control": {}
+      }
+    },
+    "ordinal": {
+      "Ever received counseling services (number of times)": {
+        "Control": {
+          "0 time": 291,
+          "1 to 4 times": 7,
+          "5 to 10 times": 6,
+          ">10 times": 2,
+          "total": 306
+        },
+        "Group PM+": {
+          "0 time": 297,
+          "1 to 4 times": 2,
+          "5 to 10 times": 4,
+          ">10 times": 2,
+          "total": 305
+        }
+      }
+    },
+    "binary": {
+      "Gender (Female)": {
+        "Control": {
+          "count": 251,
+          "denominator": 306
+        },
+        "Group PM+": {
+          "count": 251,
+          "denominator": 305
+        }
+      },
+      "Chronic disease": {
+        "Control": {
+          "count": 94,
+          "denominator": 306
+        },
+        "Group PM+": {
+          "count": 96,
+          "denominator": 305
+        }
+      },
+      "Cancer": {
+        "Control": {
+          "count": 2,
+          "denominator": 94
+        },
+        "Group PM+": {
+          "count": 3,
+          "denominator": 96
+        }
+      },
+      "Diabetes": {
+        "Control": {
+          "count": 17,
+          "denominator": 94
+        },
+        "Group PM+": {
+          "count": 18,
+          "denominator": 96
+        }
+      },
+      "Hypertension": {
+        "Control": {
+          "count": 36,
+          "denominator": 94
+        },
+        "Group PM+": {
+          "count": 36,
+          "denominator": 96
+        }
+      },
+      "Asthma": {
+        "Control": {
+          "count": 14,
+          "denominator": 94
+        },
+        "Group PM+": {
+          "count": 21,
+          "denominator": 96
+        }
+      },
+      "Other chronic disease": {
+        "Control": {
+          "count": 25,
+          "denominator": 94
+        },
+        "Group PM+": {
+          "count": 18,
+          "denominator": 96
+        }
+      },
+      "Concrete building": {
+        "Control": {
+          "count": 39,
+          "denominator": 306
+        },
+        "Group PM+": {
+          "count": 48,
+          "denominator": 305
+        }
+      },
+      "Electricity": {
+        "Control": {
+          "count": 271,
+          "denominator": 306
+        },
+        "Group PM+": {
+          "count": 277,
+          "denominator": 305
+        }
+      },
+      "Drinking water": {
+        "Control": {
+          "count": 276,
+          "denominator": 306
+        },
+        "Group PM+": {
+          "count": 270,
+          "denominator": 305
+        }
+      },
+      "Radio": {
+        "Control": {
+          "count": 85,
+          "denominator": 306
+        },
+        "Group PM+": {
+          "count": 78,
+          "denominator": 305
+        }
+      },
+      "Television": {
+        "Control": {
+          "count": 186,
+          "denominator": 306
+        },
+        "Group PM+": {
+          "count": 190,
+          "denominator": 305
+        }
+      },
+      "Simple mobile phone": {
+        "Control": {
+          "count": 252,
+          "denominator": 306
+        },
+        "Group PM+": {
+          "count": 242,
+          "denominator": 305
+        }
+      },
+      "Smart mobile phone": {
+        "Control": {
+          "count": 151,
+          "denominator": 306
+        },
+        "Group PM+": {
+          "count": 163,
+          "denominator": 305
+        }
+      },
+      "Bicycle": {
+        "Control": {
+          "count": 202,
+          "denominator": 306
+        },
+        "Group PM+": {
+          "count": 226,
+          "denominator": 305
+        }
+      },
+      "LP gas": {
+        "Control": {
+          "count": 224,
+          "denominator": 306
+        },
+        "Group PM+": {
+          "count": 231,
+          "denominator": 305
+        }
+      },
+      "Ever taken medication for mental health problems": {
+        "Control": {
+          "count": 31,
+          "denominator": 306
+        },
+        "Group PM+": {
+          "count": 10,
+          "denominator": 305
+        }
+      },
+      "Ever experienced a natural disaster": {
+        "Control": {
+          "count": 163,
+          "denominator": 306
+        },
+        "Group PM+": {
+          "count": 145,
+          "denominator": 305
+        }
+      },
+      "Been in a serious accident": {
+        "Control": {
+          "count": 65,
+          "denominator": 306
+        },
+        "Group PM+": {
+          "count": 51,
+          "denominator": 305
+        }
+      },
+      "Had a serious sickness": {
+        "Control": {
+          "count": 227,
+          "denominator": 306
+        },
+        "Group PM+": {
+          "count": 216,
+          "denominator": 305
+        }
+      },
+      "Been in the military or war zone": {
+        "Control": {
+          "count": 26,
+          "denominator": 306
+        },
+        "Group PM+": {
+          "count": 20,
+          "denominator": 305
+        }
+      },
+      "Seen/had a death/murder of close family or friend": {
+        "Control": {
+          "count": 63,
+          "denominator": 306
+        },
+        "Group PM+": {
+          "count": 64,
+          "denominator": 305
+        }
+      },
+      "Seen/had close friend/family member commit suicide": {
+        "Control": {
+          "count": 114,
+          "denominator": 306
+        },
+        "Group PM+": {
+          "count": 91,
+          "denominator": 305
+        }
+      },
+      "Been attacked with a gun/knife": {
+        "Control": {
+          "count": 30,
+          "denominator": 306
+        },
+        "Group PM+": {
+          "count": 37,
+          "denominator": 305
+        }
+      },
+      "Been attacked without weapon": {
+        "Control": {
+          "count": 40,
+          "denominator": 306
+        },
+        "Group PM+": {
+          "count": 48,
+          "denominator": 305
+        }
+      },
+      "Beaten as a child": {
+        "Control": {
+          "count": 77,
+          "denominator": 306
+        },
+        "Group PM+": {
+          "count": 73,
+          "denominator": 305
+        }
+      },
+      "Had adult sexual contact before age 13": {
+        "Control": {
+          "count": 7,
+          "denominator": 306
+        },
+        "Group PM+": {
+          "count": 8,
+          "denominator": 305
+        }
+      },
+      "Had unwanted sexual contact after age 13": {
+        "Control": {
+          "count": 22,
+          "denominator": 306
+        },
+        "Group PM+": {
+          "count": 25,
+          "denominator": 305
+        }
+      },
+      "Heart\u2013mind problems": {
+        "Control": {
+          "count": 209,
+          "denominator": 301
+        },
+        "Group PM+": {
+          "count": 177,
+          "denominator": 301
+        }
+      },
+      "50% reduction in PHQ-9 from baseline": {
+        "Control": {
+          "count": 52,
+          "denominator": 301
+        },
+        "Group PM+": {
+          "count": 90,
+          "denominator": 301
+        }
+      }
+    },
+    "categorical": {
+      "Education": {
+        "Control": {
+          "Cannot read or write": 88,
+          "Literate or informal education": 84,
+          "Primary level": 72,
+          "Secondary": 47,
+          "Higher secondary": 13,
+          "University": 2,
+          "total": 306
+        },
+        "Group PM+": {
+          "Cannot read or write": 88,
+          "Literate or informal education": 80,
+          "Primary level": 77,
+          "Secondary": 45,
+          "Higher secondary": 13,
+          "University": 2,
+          "total": 305
+        }
+      },
+      "Occupation": {
+        "Control": {
+          "Farmer": 104,
+          "Business or job": 33,
+          "Daily wage laborer": 35,
+          "Unemployed": 9,
+          "Student": 8,
+          "Housewife": 113,
+          "Other": 4,
+          "total": 306
+        },
+        "Group PM+": {
+          "Farmer": 93,
+          "Business or job": 34,
+          "Daily wage laborer": 33,
+          "Unemployed": 14,
+          "Student": 4,
+          "Housewife": 120,
+          "Other": 7,
+          "total": 305
+        }
+      },
+      "Caste category": {
+        "Control": {
+          "Upper caste (Brahman, Chhetri)": 110,
+          "Janajati": 78,
+          "Madhesi and Local Indigenous": 48,
+          "Other": 70,
+          "total": 306
+        },
+        "Group PM+": {
+          "Upper caste (Brahman, Chhetri)": 110,
+          "Janajati": 73,
+          "Madhesi and Local Indigenous": 57,
+          "Other": 65,
+          "total": 305
+        }
+      },
+      "Religion": {
+        "Control": {
+          "Hindu": 257,
+          "Buddhist": 10,
+          "Muslim": 1,
+          "Christian": 19,
+          "No religion": 1,
+          "Other": 18,
+          "total": 306
+        },
+        "Group PM+": {
+          "Hindu": 267,
+          "Buddhist": 8,
+          "Muslim": 0,
+          "Christian": 17,
+          "No religion": 1,
+          "Other": 12,
+          "total": 305
+        }
+      },
+      "Marital status": {
+        "Control": {
+          "Unmarried": 16,
+          "Married": 249,
+          "Widowed": 27,
+          "Divorced": 3,
+          "Separated": 11,
+          "total": 306
+        },
+        "Group PM+": {
+          "Unmarried": 17,
+          "Married": 242,
+          "Widowed": 39,
+          "Divorced": 3,
+          "Separated": 4,
+          "total": 305
+        }
+      },
+      "Primary language": {
+        "Control": {
+          "Nepali": 252,
+          "Other": 54,
+          "total": 306
+        },
+        "Group PM+": {
+          "Nepali": 249,
+          "Other": 56,
+          "total": 305
+        }
+      },
+      "Who do you live with?": {
+        "Control": {
+          "Living alone": 11,
+          "With 1 other person": 29,
+          "With 2 to 3 other people": 125,
+          "With 4 or more other people": 141,
+          "total": 306
+        },
+        "Group PM+": {
+          "Living alone": 9,
+          "With 1 other person": 29,
+          "With 2 to 3 other people": 122,
+          "With 4 or more other people": 145,
+          "total": 305
+        }
+      }
+    }
+  },
+  "statistical_tests": [
+    {
+      "variables": [
+        "GHQ-12 score"
+      ],
+      "test_type": "ranova",
+      "p_value": 0.014,
+      "effect_size": -0.2,
+      "group_means": [
+        19.3,
+        18.1
+      ],
+      "groups": [
+        "Control",
+        "Group PM+"
+      ]
+    },
+    {
+      "variables": [
+        "PHQ-9 score"
+      ],
+      "test_type": "ranova",
+      "p_value": 0.028,
+      "effect_size": -0.2,
+      "group_means": [
+        10.0,
+        9.5
+      ],
+      "groups": [
+        "Control",
+        "Group PM+"
+      ]
+    },
+    {
+      "variables": [
+        "WHODAS score"
+      ],
+      "test_type": "ranova",
+      "p_value": 0.118,
+      "effect_size": -0.2,
+      "group_means": [
+        16.5,
+        16.0
+      ],
+      "groups": [
+        "Control",
+        "Group PM+"
+      ]
+    },
+    {
+      "variables": [
+        "PCL score"
+      ],
+      "test_type": "ranova",
+      "p_value": 0.084,
+      "effect_size": -0.2,
+      "group_means": [
+        20.5,
+        20.2
+      ],
+      "groups": [
+        "Control",
+        "Group PM+"
+      ]
+    },
+    {
+      "variables": [
+        "MSPSS score"
+      ],
+      "test_type": "ranova",
+      "p_value": 0.138,
+      "effect_size": 0.1,
+      "group_means": [
+        31.0,
+        33.2
+      ],
+      "groups": [
+        "Control",
+        "Group PM+"
+      ]
+    },
+    {
+      "variables": [
+        "SSS-8 score"
+      ],
+      "test_type": "ranova",
+      "p_value": 0.105,
+      "effect_size": -0.1,
+      "group_means": [
+        22.1,
+        21.6
+      ],
+      "groups": [
+        "Control",
+        "Group PM+"
+      ]
+    },
+    {
+      "variables": [
+        "RTC score"
+      ],
+      "test_type": "ranova",
+      "p_value": 0.016,
+      "effect_size": 0.2,
+      "group_means": [
+        25.5,
+        27.4
+      ],
+      "groups": [
+        "Control",
+        "Group PM+"
+      ]
+    },
+    {
+      "variables": [
+        "Heart\u2013mind problems"
+      ],
+      "test_type": "chi_square",
+      "p_value": 0.042,
+      "effect_size": 0.8,
+      "group_means": [
+        0.694,
+        0.588
+      ],
+      "groups": [
+        "Control",
+        "Group PM+"
+      ]
+    },
+    {
+      "variables": [
+        "50% reduction in PHQ-9 from baseline"
+      ],
+      "test_type": "chi_square",
+      "p_value": 0.002,
+      "effect_size": 1.7,
+      "group_means": [
+        0.173,
+        0.299
+      ],
+      "groups": [
+        "Control",
+        "Group PM+"
+      ]
+    }
+  ]
+}

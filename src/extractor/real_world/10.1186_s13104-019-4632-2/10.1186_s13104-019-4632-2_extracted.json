@@ -1,0 +1,213 @@
+{
+  "study_size": 156,
+  "groups": [
+    "20% Albumin + Phototherapy",
+    "Saline + Phototherapy"
+  ],
+  "group_sizes": {
+    "20% Albumin + Phototherapy": 75,
+    "Saline + Phototherapy": 76
+  },
+  "variables": {
+    "continuous": {
+      "TSB at admission": {
+        "20% Albumin + Phototherapy": {
+          "median": 387,
+          "iqr": [
+            303,
+            456
+          ]
+        },
+        "Saline + Phototherapy": {
+          "median": 392,
+          "iqr": [
+            316,
+            510
+          ]
+        }
+      },
+      "TSB after phototherapy": {
+        "20% Albumin + Phototherapy": {
+          "median": 191,
+          "iqr": [
+            67,
+            67
+          ]
+        },
+        "Saline + Phototherapy": {
+          "median": 188,
+          "iqr": [
+            69,
+            69
+          ]
+        }
+      },
+      "Rate of change in bilirubin": {
+        "20% Albumin + Phototherapy": {
+          "median": 2.16,
+          "iqr": [
+            1.5,
+            4.25
+          ]
+        },
+        "Saline + Phototherapy": {
+          "median": 1.91,
+          "iqr": [
+            1.19,
+            4.0
+          ]
+        }
+      }
+    },
+    "ordinal": {
+      "Age at admission (days)": {
+        "20% Albumin + Phototherapy": {
+          "median": 5,
+          "iqr": [
+            3,
+            6
+          ]
+        },
+        "Saline + Phototherapy": {
+          "median": 5,
+          "iqr": [
+            4,
+            6
+          ]
+        }
+      },
+      "Gestational weeks": {
+        "20% Albumin + Phototherapy": {
+          "median": 36,
+          "iqr": [
+            36,
+            37
+          ]
+        },
+        "Saline + Phototherapy": {
+          "median": 36,
+          "iqr": [
+            36,
+            38
+          ]
+        }
+      },
+      "Mother's age": {
+        "20% Albumin + Phototherapy": {
+          "median": 24,
+          "iqr": [
+            19,
+            29
+          ]
+        },
+        "Saline + Phototherapy": {
+          "median": 24,
+          "iqr": [
+            20,
+            27
+          ]
+        }
+      }
+    },
+    "binary": {
+      "Mortality (Died)": {
+        "20% Albumin + Phototherapy": {
+          "count": 6,
+          "denominator": 59
+        },
+        "Saline + Phototherapy": {
+          "count": 11,
+          "denominator": 69
+        }
+      },
+      "Exchange transfusion (Yes)": {
+        "20% Albumin + Phototherapy": {
+          "count": 3,
+          "denominator": 59
+        },
+        "Saline + Phototherapy": {
+          "count": 4,
+          "denominator": 69
+        }
+      },
+      "Repeat phototherapy (Yes)": {
+        "20% Albumin + Phototherapy": {
+          "count": 2,
+          "denominator": 59
+        },
+        "Saline + Phototherapy": {
+          "count": 0,
+          "denominator": 69
+        }
+      }
+    },
+    "categorical": {
+      "Type of discharge": {
+        "20% Albumin + Phototherapy": {
+          "Alive": 53,
+          "Died": 6,
+          "total": 59
+        },
+        "Saline + Phototherapy": {
+          "Alive": 58,
+          "Died": 11,
+          "total": 69
+        }
+      }
+    }
+  },
+  "statistical_tests": [
+    {
+      "variables": [
+        "TSB at admission",
+        "Mortality (Died)"
+      ],
+      "test_type": "chi_square",
+      "test_statistic": 0.92,
+      "p_value": 0.337,
+      "groups": [
+        "20% Albumin + Phototherapy",
+        "Saline + Phototherapy"
+      ]
+    },
+    {
+      "variables": [
+        "Type of discharge",
+        "Exchange transfusion (Yes)"
+      ],
+      "test_type": "chi_square",
+      "test_statistic": 0.36,
+      "p_value": 0.546,
+      "groups": [
+        "20% Albumin + Phototherapy",
+        "Saline + Phototherapy"
+      ]
+    },
+    {
+      "variables": [
+        "Type of discharge",
+        "Repeat phototherapy (Yes)"
+      ],
+      "test_type": "chi_square",
+      "test_statistic": 2.37,
+      "p_value": 0.123,
+      "groups": [
+        "20% Albumin + Phototherapy",
+        "Saline + Phototherapy"
+      ]
+    },
+    {
+      "variables": [
+        "Mortality (Died)",
+        "Type of discharge"
+      ],
+      "test_type": "chi_square",
+      "test_statistic": 0.92,
+      "p_value": 0.337,
+      "groups": [
+        "20% Albumin + Phototherapy",
+        "Saline + Phototherapy"
+      ]
+    }
+  ]
+}

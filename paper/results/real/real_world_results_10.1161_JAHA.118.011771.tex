@@ -1,0 +1,39 @@
+\begin{table*}[ht]
+    \centering
+    \resizebox{\textwidth}{!}{%
+        \begin{tabular}{l cccc cccc cc c}
+            \toprule
+                                    & \multicolumn{4}{c}{\textbf{Parameter Fidelity}} & \multicolumn{4}{c}{\textbf{Inference Power}} & \multicolumn{2}{c}{\textbf{Decision Utility}} & \textbf{Resource Usage}                                                                                                                                 \\
+            \cmidrule(lr){2-5} \cmidrule(lr){6-9} \cmidrule(lr){10-11} \cmidrule(lr){12-12}
+            \textbf{Strategy}       & \textbf{W-Hell}                                 & \textbf{W-KL}                                & \textbf{TVD}                                  & \textbf{JSON}           & \textbf{LogLoss}  & \textbf{Hell}  & \textbf{KL}    & \textbf{Acc}   & \textbf{Regret} & \textbf{Acc}     & \textbf{Time (s)} \\
+            \midrule
+            Baseline MLE            & 0.000                                           & 0.000                                        & 0.000                                         & 0.120                   & 0.109             & 0.000          & 0.000          & 0.968          & 0.000           & 1.000            & 0.009             \\
+                                    & (0.00)                                          & (0.00)                                       & (0.00)                                        & (0.00)                  & (0.01)            & (0.00)         & (0.00)         & (0.01)         & (0.00)          & (0.00)           & (0.00)            \\
+
+
+            \addlinespace[0.2em]
+            Synthetic EM            & 0.342                                           & 0.434                                        & 0.325                                         & 0.017                   & \textbf{0.645   } & 0.444          & \textbf{0.544} & 0.808          & 6.727           & 0.473            & 1.183             \\
+                                    & (0.00)                                          & (0.00)                                       & (0.00)                                        & (0.01)                  & (0.02)            & (0.01)         & (0.02)         & (0.07)         & (1.03)          & (0.07)           & (0.02)            \\
+            \addlinespace[0.2em]
+            Copula Optimization     & 0.321                                           & 0.393                                        & 0.304                                         & 0.019                   & 0.693             & 0.465          & 0.593          & 0.656          & 5.944           & 0.548            & 27.763            \\
+                                    & (0.01)                                          & (0.01)                                       & (0.01)                                        & (0.01)                  & (0.02)            & (0.01)         & (0.02)         & (0.07)         & (1.54)          & (0.12)           & (0.25)            \\
+
+            \addlinespace[0.2em]
+            LLM Baseline            & 0.318                                           & \textbf{0.376}                               & 0.300                                         & 0.060                   & 0.680             & 0.457          & 0.578          & 0.608          & 8.091           & 0.376            & 33.455            \\
+                                    & (0.01)                                          & (0.01)                                       & (0.01)                                        & (0.01)                  & (0.02)            & (0.01)         & (0.03)         & (0.11)         & (1.26)          & (0.09)           & (7.20)            \\
+            \addlinespace[0.2em]
+            Constraint Optimization & \textbf{0.309}                                  & 0.381                                        & \textbf{0.294      }                          & \textbf{0.013   }       & 0.693             & 0.467          & 0.592          & \textbf{0.845} & 11.622          & 0.122            & 0.000             \\
+                                    & (0.00)                                          & (0.00)                                       & (0.00)                                        & (0.00)                  & (0.00)            & (0.00)         & (0.01)         & (0.02)         & (0.23)          & (0.02)           & (0.00)            \\
+            \addlinespace[0.2em]
+            MCMC Optimization       & 0.373                                           & 0.605                                        & 0.370                                         & 0.155                   & 0.718             & \textbf{0.398} & 0.617          & 0.616          & \textbf{5.249}  & \textbf{0.603  } & 7.719             \\
+                                    & (0.05)                                          & (0.18)                                       & (0.07)                                        & (0.04)                  & (0.26)            & (0.07)         & (0.25)         & (0.20)         & (2.74)          & (0.19)           & (0.08)            \\
+            \addlinespace[0.2em]
+            Random Guess            & 0.367                                           & 0.700                                        & 0.380                                         & 0.138                   & 0.760             & 0.414          & 0.659          & 0.558          & 6.541           & 0.518            & \textbf{0.000}    \\
+                                    & (0.05)                                          & (0.23)                                       & (0.04)                                        & (0.02)                  & (0.17)            & (0.07)         & (0.16)         & (0.16)         & (2.49)          & (0.18)           & (0.00)            \\
+            \bottomrule
+        \end{tabular}%
+    }
+    \caption{Real-World Benchmark Results (Mean $\pm$ Std) for \texttt{...011771}.}
+    \label{tab:real_world_results2}
+
+\end{table*}

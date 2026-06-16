@@ -1,0 +1,184 @@
+{
+  "study_size": 156,
+  "groups": [
+    "20% Albumin + Phototherapy",
+    "Saline + Phototherapy"
+  ],
+  "group_sizes": {
+    "20% Albumin + Phototherapy": 59,
+    "Saline + Phototherapy": 69
+  },
+  "variables": {
+    "continuous": {
+      "Estimated gestational weeks": {
+        "20% Albumin + Phototherapy": {
+          "median": 36,
+          "iqr": [
+            36,
+            37
+          ]
+        },
+        "Saline + Phototherapy": {
+          "median": 36,
+          "iqr": [
+            36,
+            38
+          ]
+        }
+      },
+      "Mother's age": {
+        "20% Albumin + Phototherapy": {
+          "median": 24,
+          "iqr": [
+            19,
+            29
+          ]
+        },
+        "Saline + Phototherapy": {
+          "median": 24,
+          "iqr": [
+            20,
+            27
+          ]
+        }
+      }
+    },
+    "ordinal": {
+      "Age at admission": {
+        "20% Albumin + Phototherapy": {
+          "median": 5,
+          "iqr": [
+            3,
+            6
+          ]
+        },
+        "Saline + Phototherapy": {
+          "median": 5,
+          "iqr": [
+            4,
+            6
+          ]
+        }
+      }
+    },
+    "binary": {
+      "Haemolytic causes": {
+        "20% Albumin + Phototherapy": {
+          "count": 28,
+          "denominator": 59
+        },
+        "Saline + Phototherapy": {
+          "count": 25,
+          "denominator": 69
+        }
+      },
+      "Non-haemolytic causes": {
+        "20% Albumin + Phototherapy": {
+          "count": 10,
+          "denominator": 59
+        },
+        "Saline + Phototherapy": {
+          "count": 9,
+          "denominator": 69
+        }
+      },
+      "Both haemolytic and non-haemolytic": {
+        "20% Albumin + Phototherapy": {
+          "count": 5,
+          "denominator": 59
+        },
+        "Saline + Phototherapy": {
+          "count": 3,
+          "denominator": 69
+        }
+      },
+      "Unknown causes": {
+        "20% Albumin + Phototherapy": {
+          "count": 13,
+          "denominator": 59
+        },
+        "Saline + Phototherapy": {
+          "count": 18,
+          "denominator": 69
+        }
+      }
+    },
+    "categorical": {
+      "group": {
+        "20% Albumin + Phototherapy": {
+          "total": 59
+        },
+        "Saline + Phototherapy": {
+          "total": 69
+        }
+      }
+    }
+  },
+  "statistical_tests": [
+    {
+      "variables": [
+        "Age at admission",
+        "Non-haemolytic causes"
+      ],
+      "test_type": "chi_square",
+      "test_statistic": 0.21,
+      "p_value": 0.646,
+      "groups": [
+        "20% Albumin + Phototherapy",
+        "Saline + Phototherapy"
+      ]
+    },
+    {
+      "variables": [
+        "Haemolytic causes",
+        "Type of discharge"
+      ],
+      "test_type": "chi_square",
+      "test_statistic": 0.92,
+      "p_value": 0.336,
+      "groups": [
+        "20% Albumin + Phototherapy",
+        "Saline + Phototherapy"
+      ]
+    },
+    {
+      "variables": [
+        "Type of discharge",
+        "Mortality (Died)"
+      ],
+      "test_type": "chi_square",
+      "test_statistic": 0.92,
+      "p_value": 0.337,
+      "groups": [
+        "20% Albumin + Phototherapy",
+        "Saline + Phototherapy"
+      ]
+    },
+    {
+      "variables": [
+        "Type of discharge",
+        "Exchange transfusion (Yes)"
+      ],
+      "test_type": "chi_square",
+      "test_statistic": 0.36,
+      "p_value": 0.546,
+      "groups": [
+        "20% Albumin + Phototherapy",
+        "Saline + Phototherapy"
+      ]
+    },
+    {
+      "variables": [
+        "Type of discharge",
+        "Repeat phototherapy (Yes)"
+      ],
+      "test_type": "chi_square",
+      "test_statistic": 2.37,
+      "p_value": 0.123,
+      "groups": [
+        "20% Albumin + Phototherapy",
+        "Saline + Phototherapy"
+      ]
+    }
+  ]
+}

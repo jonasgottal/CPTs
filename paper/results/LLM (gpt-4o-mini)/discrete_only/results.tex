@@ -1,0 +1,23 @@
+\begin{table*}[ht]
+    \centering
+    \caption{Reconstruction Performance (Mean $\pm$ Std). \textbf{Bold} indicates best result (excluding Baseline). Ordered by average rank.}
+    \label{tab:results}
+    \resizebox{\textwidth}{!}{%
+        \begin{tabular}{l ccc cccc cc c}
+            \toprule
+                                 & \multicolumn{3}{c}{\textbf{Parameter Fidelity}} & \multicolumn{4}{c}{\textbf{Inference Power}} & \multicolumn{2}{c}{\textbf{Decision Utility}} & \textbf{Resource Usage} \\
+            \cmidrule(lr){2-4} \cmidrule(lr){5-8} \cmidrule(lr){9-10} \cmidrule(lr){11-11}
+            \textbf{Strategy} & \textbf{W-Hell} & \textbf{W-KL} & \textbf{TVD} & \textbf{LogLoss} & \textbf{Hell} & \textbf{KL} & \textbf{Acc} & \textbf{Regret} & \textbf{Acc} & \textbf{Time (s)} \\
+            \midrule
+            Baseline MLE & 0.004 & 0.000 & 0.006 & 0.632 & 0.006 & 0.000 & 0.724 & 0.005 & 0.974 & 0.006 \\
+             & (0.00) & (0.00) & (0.00) & (0.03) & (0.00) & (0.00) & (0.02) & (0.01) & (0.04) & (0.00) \\
+            \addlinespace[0.2em]
+            GPT-4o-mini & \textbf{0.263} & \textbf{0.331} & \textbf{0.174} & \textbf{0.881} & \textbf{0.218} & \textbf{0.252} & \textbf{0.576} & \textbf{2.191} & \textbf{0.755} & 22.191 \\
+             & (0.01) & (0.04) & (0.01) & (0.06) & (0.03) & (0.06) & (0.11) & (1.36) & (0.16) & (1.29) \\
+            \addlinespace[0.2em]
+            Random Guess & 0.283 & 0.414 & 0.348 & 1.064 & 0.268 & 0.434 & 0.466 & 3.701 & 0.507 & \textbf{0.000} \\
+             & (0.08) & (0.19) & (0.11) & (0.33) & (0.10) & (0.35) & (0.12) & (1.88) & (0.22) & (0.00) \\
+            \bottomrule
+        \end{tabular}%
+    }
+\end{table*}

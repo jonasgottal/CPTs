@@ -1,0 +1,230 @@
+[
+  {
+    "relation": "Var_0 -> Var_1",
+    "variables": {
+      "Var_0": {
+        "type": "ordinal",
+        "categories": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "distribution": {
+          "high": 0.6868,
+          "low": 0.1887,
+          "medium": 0.1245
+        }
+      },
+      "Var_1": {
+        "type": "binary",
+        "categories": [
+          "no",
+          "yes"
+        ],
+        "distribution": {
+          "no": 0.6411,
+          "yes": 0.3589
+        }
+      }
+    },
+    "tests": [
+      {
+        "type": "chi_squared",
+        "cramers_v": 0.5521892324849001,
+        "p_value": 0.0
+      }
+    ],
+    "correlation_sign": "positive",
+    "source": "Synthesized Clinical Data"
+  },
+  {
+    "relation": "Var_0 -> Var_2",
+    "variables": {
+      "Var_0": {
+        "type": "ordinal",
+        "categories": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "distribution": {
+          "high": 0.6868,
+          "low": 0.1887,
+          "medium": 0.1245
+        }
+      },
+      "Var_2": {
+        "type": "binary",
+        "categories": [
+          "no",
+          "yes"
+        ],
+        "distribution": {
+          "yes": 0.5991,
+          "no": 0.4009
+        }
+      }
+    },
+    "tests": [
+      {
+        "type": "chi_squared",
+        "cramers_v": 0.31583675800835964,
+        "p_value": 2.4514425165366543e-217
+      }
+    ],
+    "correlation_sign": "negative",
+    "source": "Synthesized Clinical Data"
+  },
+  {
+    "relation": "Var_1 -> Var_2",
+    "variables": {
+      "Var_1": {
+        "type": "binary",
+        "categories": [
+          "no",
+          "yes"
+        ],
+        "distribution": {
+          "no": 0.6411,
+          "yes": 0.3589
+        }
+      },
+      "Var_2": {
+        "type": "binary",
+        "categories": [
+          "no",
+          "yes"
+        ],
+        "distribution": {
+          "yes": 0.5991,
+          "no": 0.4009
+        }
+      }
+    },
+    "tests": [
+      {
+        "type": "chi_squared",
+        "cramers_v": 0.044950444522643594,
+        "p_value": 6.955541517429927e-06
+      }
+    ],
+    "correlation_sign": "negative",
+    "source": "Synthesized Clinical Data"
+  },
+  {
+    "relation": "Var_0 -> Var_3",
+    "variables": {
+      "Var_0": {
+        "type": "ordinal",
+        "categories": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "distribution": {
+          "high": 0.6868,
+          "low": 0.1887,
+          "medium": 0.1245
+        }
+      },
+      "Var_3": {
+        "type": "ordinal",
+        "categories": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "distribution": {
+          "medium": 0.4733,
+          "low": 0.3726,
+          "high": 0.1541
+        }
+      }
+    },
+    "tests": [
+      {
+        "type": "chi_squared",
+        "cramers_v": 0.35073247381048156,
+        "p_value": 0.0
+      }
+    ],
+    "correlation_sign": "negative",
+    "source": "Synthesized Clinical Data"
+  },
+  {
+    "relation": "Var_2 -> Var_3",
+    "variables": {
+      "Var_2": {
+        "type": "binary",
+        "categories": [
+          "no",
+          "yes"
+        ],
+        "distribution": {
+          "yes": 0.5991,
+          "no": 0.4009
+        }
+      },
+      "Var_3": {
+        "type": "ordinal",
+        "categories": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "distribution": {
+          "medium": 0.4733,
+          "low": 0.3726,
+          "high": 0.1541
+        }
+      }
+    },
+    "tests": [
+      {
+        "type": "chi_squared",
+        "cramers_v": 0.24714846333315546,
+        "p_value": 2.2979162373150032e-133
+      }
+    ],
+    "correlation_sign": "positive",
+    "source": "Synthesized Clinical Data"
+  },
+  {
+    "relation": "Var_0 -> Var_4",
+    "variables": {
+      "Var_0": {
+        "type": "ordinal",
+        "categories": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "distribution": {
+          "high": 0.6868,
+          "low": 0.1887,
+          "medium": 0.1245
+        }
+      },
+      "Var_4": {
+        "type": "binary",
+        "categories": [
+          "yes",
+          "no"
+        ],
+        "distribution": {
+          "yes": 0.629,
+          "no": 0.371
+        }
+      }
+    },
+    "tests": [
+      {
+        "type": "chi_squared",
+        "cramers_v": 0.557490644500287,
+        "p_value": 0.0
+      }
+    ],
+    "correlation_sign": "negative",
+    "source": "Synthesized Clinical Data"
+  }
+]

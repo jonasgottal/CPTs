@@ -1,0 +1,7 @@
+[project]
+name = "learning-local-cpts"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = ["pgmpy (>=1.0.0,<2.0.0)", "matplotlib (>=3.10.7,<4.0.0)", "ipywidgets (>=8.1.8,<9.0.0)", "seaborn (>=0.13.2,<0.14.0)", "pydantic (>=2.12.5,<3.0.0)", "openai (>=2.13.0,<3.0.0)", "python-dotenv (>=1.2.1,<2.0.0)", "tenacity (>=9.1.4,<10.0.0)", "gmft (>=0.4.2,<0.5.0)", "gmft-pymupdf @ git+https://github.com/conjuncts/gmft_pymupdf.git", "pypandoc (>=1.16.2,<2.0.0)", "pandoc (>=2.4,<3.0)"]

@@ -1,0 +1,194 @@
+{
+  "study_size": 278,
+  "groups": [
+    "Intervention",
+    "Control"
+  ],
+  "group_sizes": {
+    "Intervention": 139,
+    "Control": 139
+  },
+  "variables": {
+    "continuous": {},
+    "ordinal": {
+      "Age": {
+        "Intervention": {
+          "mean": 46.5,
+          "std": 12.65
+        },
+        "Control": {
+          "mean": 45.5,
+          "std": 12.72
+        }
+      },
+      "Education": {
+        "Intervention": {
+          "mean": 7.4,
+          "std": 3.28
+        },
+        "Control": {
+          "mean": 7.1,
+          "std": 3.22
+        }
+      },
+      "Duration of schizophrenia": {
+        "Intervention": {
+          "mean": 17.5,
+          "std": 10.36
+        },
+        "Control": {
+          "mean": 18.4,
+          "std": 10.82
+        }
+      }
+    },
+    "binary": {
+      "Re-hospitalization due to schizophrenia": {
+        "Intervention": {
+          "count": 9,
+          "denominator": 123
+        },
+        "Control": {
+          "count": 25,
+          "denominator": 122
+        }
+      },
+      "Death for any reason": {
+        "Intervention": {
+          "count": 2,
+          "denominator": 139
+        },
+        "Control": {
+          "count": 1,
+          "denominator": 134
+        }
+      },
+      "Wandering": {
+        "Intervention": {
+          "count": 2,
+          "denominator": 138
+        },
+        "Control": {
+          "count": 2,
+          "denominator": 134
+        }
+      },
+      "Violence against others": {
+        "Intervention": {
+          "count": 1,
+          "denominator": 137
+        },
+        "Control": {
+          "count": 2,
+          "denominator": 134
+        }
+      },
+      "Damaging goods": {
+        "Intervention": {
+          "count": 2,
+          "denominator": 138
+        },
+        "Control": {
+          "count": 5,
+          "denominator": 134
+        }
+      }
+    },
+    "categorical": {
+      "Gender": {
+        "Intervention": {
+          "Female": 77,
+          "Male": 62,
+          "total": 139
+        },
+        "Control": {
+          "Female": 77,
+          "Male": 62,
+          "total": 139
+        }
+      },
+      "Marital Status": {
+        "Intervention": {
+          "Married": 87,
+          "Single": 39,
+          "Divorced": 13,
+          "total": 139
+        },
+        "Control": {
+          "Married": 90,
+          "Single": 36,
+          "Divorced": 13,
+          "total": 139
+        }
+      }
+    }
+  },
+  "statistical_tests": [
+    {
+      "variables": [
+        "Re-hospitalization due to schizophrenia",
+        "Violence against others"
+      ],
+      "test_type": "chi_square",
+      "groups": [
+        "Intervention",
+        "Control"
+      ]
+    },
+    {
+      "variables": [
+        "Re-hospitalization due to schizophrenia",
+        "Death for any reason"
+      ],
+      "test_type": "chi_square",
+      "groups": [
+        "Intervention",
+        "Control"
+      ]
+    },
+    {
+      "variables": [
+        "Re-hospitalization due to schizophrenia",
+        "Wandering"
+      ],
+      "test_type": "chi_square",
+      "groups": [
+        "Intervention",
+        "Control"
+      ]
+    },
+    {
+      "variables": [
+        "Re-hospitalization due to schizophrenia",
+        "Damaging goods"
+      ],
+      "test_type": "chi_square",
+      "groups": [
+        "Intervention",
+        "Control"
+      ]
+    },
+    {
+      "variables": [
+        "Re-hospitalization due to schizophrenia",
+        "CGI\u2013Improvement"
+      ],
+      "test_type": "chi_square",
+      "groups": [
+        "Intervention",
+        "Control"
+      ]
+    },
+    {
+      "variables": [
+        "CGI\u2013Improvement",
+        "CGI\u2013Severity"
+      ],
+      "test_type": "pearson",
+      "groups": [
+        "Intervention",
+        "Control"
+      ]
+    }
+  ]
+}

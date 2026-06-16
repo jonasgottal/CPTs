@@ -1,0 +1,35 @@
+\begin{table*}[ht]
+    \centering
+    \caption{Reconstruction Performance (Mean $\pm$ Std). \textbf{Bold} indicates best result (excluding Baseline). Ordered by average rank.}
+    \label{tab:results}
+    \resizebox{\textwidth}{!}{%
+        \begin{tabular}{l cccc cccc cc c}
+            \toprule
+                                 & \multicolumn{4}{c}{\textbf{Parameter Fidelity}} & \multicolumn{4}{c}{\textbf{Inference Power}} & \multicolumn{2}{c}{\textbf{Decision Utility}} & \textbf{Resource Usage} \\
+            \cmidrule(lr){2-5} \cmidrule(lr){6-9} \cmidrule(lr){10-11} \cmidrule(lr){12-12}
+            \textbf{Strategy} & \textbf{W-Hell} & \textbf{W-KL} & \textbf{TVD} & \textbf{JSON} & \textbf{LogLoss} & \textbf{Hell} & \textbf{KL} & \textbf{Acc} & \textbf{Regret} & \textbf{Acc} & \textbf{Time (s)} \\
+            \midrule
+            Baseline MLE & 0.004 & 0.000 & 0.006 & 0.005 & 0.632 & 0.006 & 0.000 & 0.722 & 0.005 & 0.973 & 0.006 \\
+             & (0.00) & (0.00) & (0.00) & (0.00) & (0.01) & (0.00) & (0.00) & (0.01) & (0.01) & (0.04) & (0.00) \\
+            \addlinespace[0.2em]
+            Synthetic EM & \textbf{0.130} & \textbf{0.119} & \textbf{0.103} & 0.059 & \textbf{0.810} & 0.170 & \textbf{0.183} & 0.590 & 1.964 & 0.549 & 1.814 \\
+             & (0.10) & (0.11) & (0.06) & (0.00) & (0.03) & (0.02) & (0.02) & (0.01) & (0.11) & (0.02) & (2.13) \\
+            \addlinespace[0.2em]
+            Copula Optimization & 0.156 & 0.128 & 0.108 & \textbf{0.019} & 0.856 & \textbf{0.163} & 0.227 & \textbf{0.644} & \textbf{1.132} & \textbf{0.803} & 61.103 \\
+             & (0.08) & (0.09) & (0.06) & (0.01) & (0.08) & (0.02) & (0.08) & (0.04) & (0.69) & (0.05) & (0.13) \\
+            \addlinespace[0.2em]
+            Iterative Proportional Fitting & 0.306 & 0.408 & 0.301 & 0.132 & 0.855 & 0.212 & 0.235 & 0.581 & 2.114 & 0.648 & 0.001 \\
+             & (0.00) & (0.00) & (0.00) & (0.00) & (0.02) & (0.00) & (0.01) & (0.03) & (0.11) & (0.01) & (0.00) \\
+            \addlinespace[0.2em]
+            Constraint Optimization & 0.251 & 0.303 & 0.324 & 0.205 & 1.005 & 0.303 & 0.377 & 0.368 & 4.851 & 0.316 & 0.023 \\
+             & (0.03) & (0.10) & (0.03) & (0.01) & (0.07) & (0.03) & (0.06) & (0.02) & (1.06) & (0.12) & (0.01) \\
+            \addlinespace[0.2em]
+            MCMC Optimization & 0.300 & 0.534 & 0.367 & 0.276 & 1.156 & 0.309 & 0.524 & 0.400 & 4.873 & 0.361 & 18.455 \\
+             & (0.07) & (0.21) & (0.07) & (0.07) & (0.21) & (0.06) & (0.18) & (0.11) & (1.53) & (0.19) & (0.32) \\
+            \addlinespace[0.2em]
+            Random Guess & 0.283 & 0.414 & 0.348 & 0.258 & 1.056 & 0.271 & 0.442 & 0.477 & 3.755 & 0.504 & \textbf{0.000} \\
+             & (0.08) & (0.19) & (0.11) & (0.13) & (0.33) & (0.09) & (0.34) & (0.12) & (1.87) & (0.22) & (0.00) \\
+            \bottomrule
+        \end{tabular}%
+    }
+\end{table*}

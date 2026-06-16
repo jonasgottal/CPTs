@@ -1,0 +1,16 @@
+Avg_KL,Strategy,Seed
+0.3375729613213155,Synthetic EM,0
+0.3375729613213155,Synthetic EM,1
+0.3375729613213155,Synthetic EM,2
+0.3375729613213155,Synthetic EM,3
+0.3375729613213155,Synthetic EM,4
+0.3287095128803214,Constraint Optimization,0
+0.3287095128803214,Constraint Optimization,1
+0.3287095128803214,Constraint Optimization,2
+0.3287095128803214,Constraint Optimization,3
+0.3287095128803214,Constraint Optimization,4
+0.3375729613213155,Copula Optimization,0
+0.3375729613213155,Copula Optimization,1
+0.3375729613213155,Copula Optimization,2
+0.3375729613213155,Copula Optimization,3
+0.3375729613213155,Copula Optimization,4

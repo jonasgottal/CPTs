@@ -1,0 +1,423 @@
+{
+  "study_size": 2294,
+  "groups": [
+    "Kilifi SCT",
+    "Kilifi non-SCT",
+    "Nairobi SCT",
+    "Nairobi non-SCT",
+    "Jackson SCT",
+    "Jackson non-SCT"
+  ],
+  "group_sizes": {
+    "Kilifi SCT": 238,
+    "Kilifi non-SCT": 889,
+    "Nairobi SCT": 82,
+    "Nairobi non-SCT": 434,
+    "Jackson SCT": 58,
+    "Jackson non-SCT": 593
+  },
+  "variables": {
+    "ordinal": {
+      "Age": {
+        "Kilifi SCT": {
+          "mean": 41,
+          "std": 22
+        },
+        "Kilifi non-SCT": {
+          "mean": 39,
+          "std": 22
+        },
+        "Nairobi SCT": {
+          "mean": 20,
+          "std": 14
+        },
+        "Nairobi non-SCT": {
+          "mean": 23,
+          "std": 18
+        },
+        "Jackson SCT": {
+          "mean": 61,
+          "std": 12
+        },
+        "Jackson non-SCT": {
+          "mean": 60,
+          "std": 11
+        }
+      }
+    },
+    "continuous": {
+      "BMI": {
+        "Kilifi SCT": {
+          "mean": 20.6,
+          "std": 3.6
+        },
+        "Kilifi non-SCT": {
+          "mean": 20.6,
+          "std": 3.8
+        },
+        "Nairobi SCT": {
+          "mean": 20.2,
+          "std": 3.9
+        },
+        "Nairobi non-SCT": {
+          "mean": 20.5,
+          "std": 4.3
+        },
+        "Jackson SCT": {
+          "mean": 31.1,
+          "std": 7.0
+        },
+        "Jackson non-SCT": {
+          "mean": 30.9,
+          "std": 6.3
+        }
+      },
+      "HbA1c": {
+        "Kilifi SCT": {
+          "mean": 5.2,
+          "std": 0.6
+        },
+        "Kilifi non-SCT": {
+          "mean": 5.1,
+          "std": 0.8
+        },
+        "Nairobi SCT": {
+          "mean": 5.2,
+          "std": 1.1
+        },
+        "Nairobi non-SCT": {
+          "mean": 5.2,
+          "std": 1.0
+        },
+        "Jackson SCT": {
+          "mean": 6.0,
+          "std": 1.2
+        },
+        "Jackson non-SCT": {
+          "mean": 6.1,
+          "std": 1.3
+        }
+      },
+      "Hemoglobin": {
+        "Kilifi SCT": {
+          "mean": 12.6,
+          "std": 2.0
+        },
+        "Kilifi non-SCT": {
+          "mean": 12.6,
+          "std": 1.6
+        },
+        "Nairobi SCT": {
+          "mean": 13.4,
+          "std": 1.7
+        },
+        "Nairobi non-SCT": {
+          "mean": 13.2,
+          "std": 1.7
+        },
+        "Jackson SCT": {
+          "mean": 12.8,
+          "std": 1.4
+        },
+        "Jackson non-SCT": {
+          "mean": 13.0,
+          "std": 1.4
+        }
+      },
+      "WBC count": {
+        "Kilifi SCT": {
+          "mean": 5.7,
+          "std": 1.5
+        },
+        "Kilifi non-SCT": {
+          "mean": 5.7,
+          "std": 1.4
+        },
+        "Nairobi SCT": {
+          "mean": 5.4,
+          "std": 1.4
+        },
+        "Nairobi non-SCT": {
+          "mean": 5.4,
+          "std": 1.6
+        },
+        "Jackson SCT": {
+          "mean": 4.9,
+          "std": 1.1
+        },
+        "Jackson non-SCT": {
+          "mean": 5.3,
+          "std": 1.5
+        }
+      },
+      "Platelet count": {
+        "Kilifi SCT": {
+          "mean": 267,
+          "std": 97
+        },
+        "Kilifi non-SCT": {
+          "mean": 262,
+          "std": 83
+        },
+        "Nairobi SCT": {
+          "mean": 283,
+          "std": 99
+        },
+        "Nairobi non-SCT": {
+          "mean": 287,
+          "std": 100
+        },
+        "Jackson SCT": {
+          "mean": 230,
+          "std": 58
+        },
+        "Jackson non-SCT": {
+          "mean": 243,
+          "std": 61
+        }
+      },
+      "Plasma osmolality": {
+        "Kilifi SCT": {
+          "mean": 290,
+          "std": 6.6
+        },
+        "Kilifi non-SCT": {
+          "mean": 290,
+          "std": 5.8
+        },
+        "Nairobi SCT": {
+          "mean": 291,
+          "std": 10
+        },
+        "Nairobi non-SCT": {
+          "mean": 291,
+          "std": 11
+        },
+        "Jackson SCT": {},
+        "Jackson non-SCT": {}
+      },
+      "eGFR": {
+        "Kilifi SCT": {
+          "mean": 108,
+          "std": 35
+        },
+        "Kilifi non-SCT": {
+          "mean": 114,
+          "std": 42
+        },
+        "Nairobi SCT": {
+          "mean": 118,
+          "std": 27
+        },
+        "Nairobi non-SCT": {
+          "mean": 115,
+          "std": 24
+        },
+        "Jackson SCT": {
+          "mean": 85,
+          "std": 26
+        },
+        "Jackson non-SCT": {
+          "mean": 87,
+          "std": 26
+        }
+      },
+      "Log UACR": {
+        "Kilifi SCT": {
+          "mean": 1.3,
+          "std": 0.5
+        },
+        "Kilifi non-SCT": {
+          "mean": 1.2,
+          "std": 0.6
+        },
+        "Nairobi SCT": {
+          "mean": 1.3,
+          "std": 0.7
+        },
+        "Nairobi non-SCT": {
+          "mean": 1.5,
+          "std": 0.7
+        },
+        "Jackson SCT": {
+          "mean": 1.06,
+          "std": 0.6
+        },
+        "Jackson non-SCT": {
+          "mean": 0.9,
+          "std": 0.5
+        }
+      },
+      "24-hour SBP": {
+        "Kilifi SCT": {
+          "mean": 126,
+          "std": 18
+        },
+        "Kilifi non-SCT": {
+          "mean": 127,
+          "std": 18
+        },
+        "Nairobi SCT": {
+          "mean": 123,
+          "std": 13
+        },
+        "Nairobi non-SCT": {
+          "mean": 123,
+          "std": 14
+        },
+        "Jackson SCT": {},
+        "Jackson non-SCT": {}
+      }
+    },
+    "categorical": {},
+    "binary": {
+      "Women": {
+        "Kilifi SCT": 126,
+        "Kilifi non-SCT": 528,
+        "Nairobi SCT": 40,
+        "Nairobi non-SCT": 235,
+        "Jackson SCT": 38,
+        "Jackson non-SCT": 392,
+        "total": 1359
+      },
+      "Smoker": {
+        "Kilifi SCT": 17,
+        "Kilifi non-SCT": 78,
+        "Nairobi SCT": 3,
+        "Nairobi non-SCT": 7,
+        "Jackson SCT": 5,
+        "Jackson non-SCT": 74,
+        "total": 184
+      },
+      "Previously diagnosed with hypertension": {
+        "Kilifi SCT": 37,
+        "Kilifi non-SCT": 127,
+        "Nairobi SCT": 7,
+        "Nairobi non-SCT": 53,
+        "Jackson SCT": 31,
+        "Jackson non-SCT": 367,
+        "total": 622
+      },
+      "Taking antihypertensive medication": {
+        "Kilifi SCT": 9,
+        "Kilifi non-SCT": 26,
+        "Nairobi SCT": 0,
+        "Nairobi non-SCT": 8,
+        "Jackson SCT": 26,
+        "Jackson non-SCT": 338,
+        "total": 407
+      },
+      "Sickle cell trait (SCT)": {
+        "Kilifi SCT": 238,
+        "Kilifi non-SCT": 0,
+        "Nairobi SCT": 82,
+        "Nairobi non-SCT": 0,
+        "Jackson SCT": 58,
+        "Jackson non-SCT": 0,
+        "total": 378
+      },
+      "a+thalassemia": {
+        "Kilifi SCT": 164,
+        "Kilifi non-SCT": 596,
+        "Nairobi SCT": null,
+        "Nairobi non-SCT": null,
+        "Jackson SCT": null,
+        "Jackson non-SCT": null,
+        "total": 760
+      },
+      "Hypertension": {
+        "Kilifi SCT": 0.56,
+        "Kilifi non-SCT": 0.56,
+        "Nairobi SCT": 0.28,
+        "Nairobi non-SCT": 0.28,
+        "Jackson SCT": 0.62,
+        "Jackson non-SCT": 0.62,
+        "total": null
+      }
+    }
+  },
+  "statistical_tests": [
+    {
+      "variables": [
+        "Sickle cell trait (SCT)",
+        "24-hour systolic blood pressure (SBP)"
+      ],
+      "test_type": "unpaired_t_test",
+      "p_value": 0.037,
+      "effect_size": -2.4,
+      "group_means": [
+        126.0,
+        127.0
+      ],
+      "groups": [
+        "Kilifi SCT",
+        "Kilifi non-SCT"
+      ]
+    },
+    {
+      "variables": [
+        "Sickle cell trait (SCT)",
+        "24-hour systolic blood pressure (SBP)"
+      ],
+      "test_type": "unpaired_t_test",
+      "p_value": 0.041,
+      "effect_size": -3.5,
+      "groups": [
+        "Kilifi SCT",
+        "Nairobi SCT"
+      ]
+    },
+    {
+      "variables": [
+        "Sickle cell trait (SCT)",
+        "24-hour systolic blood pressure (SBP)"
+      ],
+      "test_type": "unpaired_t_test",
+      "p_value": 0.041,
+      "effect_size": -3.5,
+      "groups": [
+        "Kilifi SCT",
+        "Jackson SCT"
+      ]
+    },
+    {
+      "variables": [
+        "Sickle cell trait (SCT)",
+        "Hypertension"
+      ],
+      "test_type": "chi_square",
+      "p_value": 0.027,
+      "effect_size": 0.86,
+      "groups": [
+        "Kilifi SCT",
+        "Kilifi non-SCT"
+      ]
+    },
+    {
+      "variables": [
+        "Sickle cell trait (SCT)",
+        "Hypertension"
+      ],
+      "test_type": "chi_square",
+      "p_value": 0.706,
+      "effect_size": 0.96,
+      "groups": [
+        "Jackson SCT",
+        "Jackson non-SCT"
+      ]
+    },
+    {
+      "variables": [
+        "Sickle cell trait (SCT)",
+        "Hypertension"
+      ],
+      "test_type": "chi_square",
+      "p_value": 0.706,
+      "effect_size": 0.96,
+      "groups": [
+        "Nairobi SCT",
+        "Nairobi non-SCT"
+      ]
+    }
+  ]
+}

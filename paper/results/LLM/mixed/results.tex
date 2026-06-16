@@ -1,0 +1,23 @@
+\begin{table*}[ht]
+    \centering
+    \caption{Reconstruction Performance (Mean $\pm$ Std). \textbf{Bold} indicates best result (excluding Baseline). Ordered by average rank.}
+    \label{tab:results}
+    \resizebox{\textwidth}{!}{%
+        \begin{tabular}{l ccc cccc cc c}
+            \toprule
+                              & \multicolumn{3}{c}{\textbf{Parameter Fidelity}} & \multicolumn{4}{c}{\textbf{Inference Power}} & \multicolumn{2}{c}{\textbf{Decision Utility}} & \textbf{Resource Usage}                                                                                                           \\
+            \cmidrule(lr){2-4} \cmidrule(lr){5-8} \cmidrule(lr){9-10} \cmidrule(lr){11-11}
+            \textbf{Strategy} & \textbf{W-Hell}                                 & \textbf{W-KL}                                & \textbf{TVD}                                  & \textbf{LogLoss}        & \textbf{Hell}  & \textbf{KL}    & \textbf{Acc}   & \textbf{Regret} & \textbf{Acc}   & \textbf{Time (s)} \\
+            \midrule
+            Baseline MLE      & 0.004                                           & 0.000                                        & 0.006                                         & 0.623                   & 0.006          & 0.000          & 0.728          & 0.006           & 0.968          & 0.006             \\
+                              & (0.00)                                          & (0.00)                                       & (0.00)                                        & (0.04)                  & (0.00)         & (0.00)         & (0.02)         & (0.01)          & (0.04)         & (0.00)            \\
+            \addlinespace[0.2em]
+            GPT-5.1           & \textbf{0.277}                                  & 0.424                                        & \textbf{0.173}                                & \textbf{0.865}          & \textbf{0.201} & \textbf{0.239} & \textbf{0.498} & \textbf{3.358}  & \textbf{0.632} & 13.466            \\
+                              & (0.10)                                          & (0.24)                                       & (0.07)                                        & (0.11)                  & (0.07)         & (0.10)         & (0.16)         & (2.24)          & (0.20)         & (0.83)            \\
+            \addlinespace[0.2em]
+            Random Guess      & 0.283                                           & \textbf{0.414}                               & 0.348                                         & 1.053                   & 0.265          & 0.423          & 0.473          & 3.632           & 0.510          & \textbf{0.000}    \\
+                              & (0.08)                                          & (0.19)                                       & (0.11)                                        & (0.33)                  & (0.08)         & (0.31)         & (0.12)         & (1.65)          & (0.21)         & (0.00)            \\
+            \bottomrule
+        \end{tabular}%
+    }
+\end{table*}

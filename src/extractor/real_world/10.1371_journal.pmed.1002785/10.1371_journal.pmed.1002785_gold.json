@@ -1,0 +1,600 @@
+{
+  "study_size": 278,
+  "groups": [
+    "Intervention",
+    "Control"
+  ],
+  "group_sizes": {
+    "Intervention": 139,
+    "Control": 139
+  },
+  "variables": {
+    "continuous": {
+      "Age (years)": {
+        "Intervention": {
+          "mean": 46.5,
+          "std": 12.65
+        },
+        "Control": {
+          "mean": 45.5,
+          "std": 12.72
+        }
+      },
+      "Education (years)": {
+        "Intervention": {
+          "mean": 7.4,
+          "std": 3.28
+        },
+        "Control": {
+          "mean": 7.1,
+          "std": 3.22
+        }
+      },
+      "Patient income last month (RMB)": {
+        "Intervention": {
+          "median": 66,
+          "iqr": [
+            0,
+            500
+          ],
+          "min_val": 0,
+          "max_val": 500
+        },
+        "Control": {
+          "median": 95,
+          "iqr": [
+            0,
+            800
+          ],
+          "min_val": 0,
+          "max_val": 800
+        }
+      },
+      "Family annual income (RMB)": {
+        "Intervention": {
+          "median": 20000,
+          "iqr": [
+            10000,
+            50000
+          ],
+          "min_val": 10000,
+          "max_val": 50000
+        },
+        "Control": {
+          "median": 20000,
+          "iqr": [
+            10000,
+            50000
+          ],
+          "min_val": 10000,
+          "max_val": 50000
+        }
+      },
+      "Duration of schizophrenia (years)": {
+        "Intervention": {
+          "mean": 17.5,
+          "std": 10.36
+        },
+        "Control": {
+          "mean": 18.4,
+          "std": 10.82
+        }
+      },
+      "Caregiver age (years)": {
+        "Intervention": {
+          "mean": 45.4,
+          "std": 12.75
+        },
+        "Control": {
+          "mean": 44.5,
+          "std": 12.49
+        }
+      },
+      "Pill-count adherence_n.baseline": {
+        "Intervention": {
+          "mean": 0.61,
+          "std": 0.34
+        },
+        "Control": {
+          "mean": 0.48,
+          "std": 0.35
+        }
+      },
+      "DAI-10_n.baseline": {
+        "Intervention": {
+          "mean": 0.65,
+          "std": 0.2
+        },
+        "Control": {
+          "mean": 0.68,
+          "std": 0.2
+        }
+      },
+      "BARS_n.baseline": {
+        "Intervention": {
+          "mean": 0.73,
+          "std": 0.18
+        },
+        "Control": {
+          "mean": 0.70,
+          "std": 0.20
+        }
+      },
+      "Refill record_n.baseline": {
+        "Intervention": {
+          "mean": 0.75,
+          "std": 0.30
+        },
+        "Control": {
+          "mean": 0.71,
+          "std": 0.34
+        }
+      },
+      "WHODAS_n.baseline": {
+        "Intervention": {
+          "mean": 0.18,
+          "std": 0.19
+        },
+        "Control": {
+          "mean": 0.19,
+          "std": 0.18
+        }
+      },
+      "GASS_n.baseline": {
+        "Intervention": {
+          "mean": 9.47,
+          "std": 6.66
+        },
+        "Control": {
+          "mean": 8.59,
+          "std": 8.02
+        }
+      },
+      "Pill-count adherence": {
+        "Intervention": {
+          "mean": 0.61,
+          "std": 0.34
+        },
+        "Control": {
+          "mean": 0.48,
+          "std": 0.35
+        }
+      },
+      "DAI-10": {
+        "Intervention": {
+          "mean": 0.68,
+          "std": 0.2
+        },
+        "Control": {
+          "mean": 0.67,
+          "std": 0.22
+        }
+      },
+      "BARS": {
+        "Intervention": {
+          "mean": 0.71,
+          "std": 0.21
+        },
+        "Control": {
+          "mean": 0.68,
+          "std": 0.23
+        }
+      },
+      "Refill record": {
+        "Intervention": {
+          "mean": 0.83,
+          "std": 0.28
+        },
+        "Control": {
+          "mean": 0.76,
+          "std": 0.34
+        }
+      },
+      "WHODAS": {
+        "Intervention": {
+          "mean": 0.12,
+          "std": 0.15
+        },
+        "Control": {
+          "mean": 0.15,
+          "std": 0.19
+        }
+      },
+      "GASS": {
+        "Intervention": {
+          "mean": 9.47,
+          "std": 6.66
+        },
+        "Control": {
+          "mean": 8.59,
+          "std": 8.02
+        }
+      }
+    },
+    "ordinal": {
+      "CGI\u2013Severity": {
+        "Intervention": {
+          "mean": 2.95,
+          "std": 1.66
+        },
+        "Control": {
+          "mean": 3.09,
+          "std": 1.7
+        }
+      },
+      "CGI\u2013Improvement": {
+        "Intervention": {
+          "mean": 3.09,
+          "std": 1.15
+        },
+        "Control": {
+          "mean": 3.02,
+          "std": 1.08
+        }
+      }
+    },
+    "binary": {
+      "Patient gender (Female)": {
+        "Intervention": {
+          "count": 77,
+          "denominator": 139
+        },
+        "Control": {
+          "count": 77,
+          "denominator": 139
+        }
+      },
+      "Patient married": {
+        "Intervention": {
+          "count": 87,
+          "denominator": 139
+        },
+        "Control": {
+          "count": 90,
+          "denominator": 139
+        }
+      },
+      "Patient employed": {
+        "Intervention": {
+          "count": 44,
+          "denominator": 139
+        },
+        "Control": {
+          "count": 48,
+          "denominator": 139
+        }
+      },
+      "Patient living alone": {
+        "Intervention": {
+          "count": 7,
+          "denominator": 139
+        },
+        "Control": {
+          "count": 6,
+          "denominator": 139
+        }
+      },
+      "Literate": {
+        "Intervention": {
+          "count": 121,
+          "denominator": 139
+        },
+        "Control": {
+          "count": 126,
+          "denominator": 139
+        }
+      },
+      "Caregiver gender (Female)": {
+        "Intervention": {
+          "count": 67,
+          "denominator": 139
+        },
+        "Control": {
+          "count": 67,
+          "denominator": 139
+        }
+      },
+      "Caregiver employed": {
+        "Intervention": {
+          "count": 76,
+          "denominator": 139
+        },
+        "Control": {
+          "count": 62,
+          "denominator": 139
+        }
+      },
+      "Caregiver is family member": {
+        "Intervention": {
+          "count": 112,
+          "denominator": 139
+        },
+        "Control": {
+          "count": 109,
+          "denominator": 139
+        }
+      },
+      "Caregiver married": {
+        "Intervention": {
+          "count": 77,
+          "denominator": 139
+        },
+        "Control": {
+          "count": 76,
+          "denominator": 139
+        }
+      },
+      "Relapse": {
+        "Intervention": {
+          "count": 26,
+          "denominator": 120
+        },
+        "Control": {
+          "count": 40,
+          "denominator": 117
+        }
+      },
+      "Re-hospitalization due to schizophrenia": {
+        "Intervention": {
+          "count": 9,
+          "denominator": 123
+        },
+        "Control": {
+          "count": 25,
+          "denominator": 122
+        }
+      },
+      "Death for any reason": {
+        "Intervention": {
+          "count": 2,
+          "denominator": 139
+        },
+        "Control": {
+          "count": 1,
+          "denominator": 134
+        }
+      },
+      "Substance abuse": {
+        "Intervention": {
+          "count": 14,
+          "denominator": 133
+        },
+        "Control": {
+          "count": 13,
+          "denominator": 127
+        }
+      },
+      "Suicide": {
+        "Intervention": {
+          "count": 0,
+          "denominator": 139
+        },
+        "Control": {
+          "count": 0,
+          "denominator": 139
+        }
+      },
+      "Self-harm": {
+        "Intervention": {
+          "count": 0,
+          "denominator": 139
+        },
+        "Control": {
+          "count": 0,
+          "denominator": 139
+        }
+      },
+      "Wandering": {
+        "Intervention": {
+          "count": 2,
+          "denominator": 138
+        },
+        "Control": {
+          "count": 2,
+          "denominator": 134
+        }
+      },
+      "Violence against others": {
+        "Intervention": {
+          "count": 1,
+          "denominator": 137
+        },
+        "Control": {
+          "count": 2,
+          "denominator": 134
+        }
+      },
+      "Damaging goods": {
+        "Intervention": {
+          "count": 2,
+          "denominator": 138
+        },
+        "Control": {
+          "count": 5,
+          "denominator": 134
+        }
+      }
+    },
+    "categorical": {
+      "Top antipsychotic prescribed": {
+        "Intervention": {
+          "Clozapine": 48,
+          "Risperidone": 46,
+          "Quetiapine": 26,
+          "Sulpiride": 21,
+          "Perphenazine": 12,
+          "total": 136
+        },
+        "Control": {
+          "Clozapine": 45,
+          "Risperidone": 43,
+          "Quetiapine": 25,
+          "Sulpiride": 25,
+          "Perphenazine": 15,
+          "total": 133
+        }
+      }
+    }
+  },
+  "statistical_tests": [
+    {
+      "variables": [
+        "Pill-count adherence"
+      ],
+      "test_type": "wilcoxon_mann_whitney",
+      "p_value": 0.013,
+      "effect_size": 0.38,
+      "group_means": [
+        0.61,
+        0.48
+      ],
+      "groups": [
+        "Intervention",
+        "Control"
+      ]
+    },
+    {
+      "variables": [
+        "WHODAS"
+      ],
+      "test_type": "wilcoxon_mann_whitney",
+      "p_value": 0.117,
+      "effect_size": 0.18,
+      "group_means": [
+        0.12,
+        0.15
+      ],
+      "groups": [
+        "Intervention",
+        "Control"
+      ]
+    },
+    {
+      "variables": [
+        "CGI\u2013Severity"
+      ],
+      "test_type": "wilcoxon_mann_whitney",
+      "p_value": 0.514,
+      "group_means": [
+        2.84,
+        2.76
+      ],
+      "groups": [
+        "Intervention",
+        "Control"
+      ]
+    },
+    {
+      "variables": [
+        "Relapse"
+      ],
+      "test_type": "chi_square",
+      "p_value": 0.033,
+      "effect_size": 0.63,
+      "group_means": [
+        0.217,
+        0.342
+      ],
+      "groups": [
+        "Intervention",
+        "Control"
+      ]
+    },
+    {
+      "variables": [
+        "Re-hospitalization due to schizophrenia"
+      ],
+      "test_type": "chi_square",
+      "p_value": 0.004,
+      "effect_size": 0.36,
+      "group_means": [
+        0.073,
+        0.205
+      ],
+      "groups": [
+        "Intervention",
+        "Control"
+      ]
+    },
+    {
+      "variables": [
+        "Death for any reason"
+      ],
+      "test_type": "chi_square",
+      "p_value": 0.59,
+      "effect_size": 1.93,
+      "group_means": [
+        0.014,
+        0.008
+      ],
+      "groups": [
+        "Intervention",
+        "Control"
+      ]
+    },
+    {
+      "variables": [
+        "Substance abuse"
+      ],
+      "test_type": "chi_square",
+      "p_value": 0.939,
+      "effect_size": 1.028,
+      "group_means": [
+        0.105,
+        0.102
+      ],
+      "groups": [
+        "Intervention",
+        "Control"
+      ]
+    },
+    {
+      "variables": [
+        "Wandering"
+      ],
+      "test_type": "chi_square",
+      "p_value": 0.976,
+      "effect_size": 0.97,
+      "group_means": [
+        0.015,
+        0.015
+      ],
+      "groups": [
+        "Intervention",
+        "Control"
+      ]
+    },
+    {
+      "variables": [
+        "Violence against others"
+      ],
+      "test_type": "chi_square",
+      "p_value": 0.557,
+      "effect_size": 0.49,
+      "group_means": [
+        0.007,
+        0.015
+      ],
+      "groups": [
+        "Intervention",
+        "Control"
+      ]
+    },
+    {
+      "variables": [
+        "Damaging goods"
+      ],
+      "test_type": "chi_square",
+      "p_value": 0.252,
+      "effect_size": 0.39,
+      "group_means": [
+        0.015,
+        0.037
+      ],
+      "groups": [
+        "Intervention",
+        "Control"
+      ]
+    }
+  ]
+}

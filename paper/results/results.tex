@@ -1,0 +1,47 @@
+\begin{table*}[ht]
+    \centering
+    \resizebox{\textwidth}{!}{%
+        \begin{tabular}{l cccc cccc cc c}
+            \toprule
+                                           & \multicolumn{4}{c}{\textbf{Parameter Fidelity}} & \multicolumn{4}{c}{\textbf{Inference Power}} & \multicolumn{2}{c}{\textbf{Decision Utility}} & \textbf{Resource Usage}                                                                                                                              \\
+            \cmidrule(lr){2-5} \cmidrule(lr){6-9} \cmidrule(lr){10-11} \cmidrule(lr){12-12}
+            \textbf{Strategy}              & \textbf{W-Hell}                                 & \textbf{W-KL}                                & \textbf{TVD}                                  & \textbf{JSON}           & \textbf{LogLoss} & \textbf{Hell}  & \textbf{KL}    & \textbf{Acc}   & \textbf{Regret} & \textbf{Acc}   & \textbf{Time (s)} \\
+            \midrule
+            Baseline MLE                   & 0.004                                           & 0.000                                        & 0.006                                         & 0.005                   & 0.640            & 0.006          & 0.000          & 0.717          & 0.004           & 0.976          & 0.006             \\
+                                           & (0.00)                                          & (0.00)                                       & (0.00)                                        & (0.00)                  & (0.03)           & (0.00)         & (0.00)         & (0.02)         & (0.01)          & (0.03)         & (0.00)            \\
+            \addlinespace[0.2em]
+            Copula Optimization            & 0.176                                           & 0.158                                        & 0.116                                         & \textbf{0.014}          & \textbf{0.825}   & \textbf{0.160} & 0.189          & \textbf{0.615} & \textbf{1.434}  & {0.778}        & 5.825             \\
+                                           & (0.06)                                          & (0.09)                                       & (0.05)                                        & (0.00)                  & (0.04)           & (0.01)         & (0.06)         & (0.06)         & (0.66)          & (0.07)         & (0.03)            \\
+            \addlinespace[0.2em]
+            Synthetic EM                   & \textbf{0.133}                                  & \textbf{0.116}                               & \textbf{0.102}                                & 0.059                   & 0.831            & 0.176          & \textbf{0.187} & 0.569          & 2.121           & 0.520          & 0.394             \\
+                                           & (0.09)                                          & (0.10)                                       & (0.06)                                        & (0.00)                  & (0.03)           & (0.02)         & (0.02)         & (0.03)         & (0.20)          & (0.02)         & (0.21)            \\
+            \addlinespace[0.2em]
+            Iterative Proportional Fitting & 0.306                                           & 0.408                                        & 0.301                                         & 0.132                   & 0.871            & 0.213          & 0.238          & 0.574          & 2.115           & 0.635          & 0.001             \\
+                                           & (0.00)                                          & (0.00)                                       & (0.00)                                        & (0.00)                  & (0.03)           & (0.01)         & (0.02)         & (0.02)         & (0.11)          & (0.01)         & (0.00)            \\
+            \addlinespace[0.2em]
+            MCMC Optimization              & 0.217                                           & 0.323                                        & 0.290                                         & 0.261                   & 1.020            & 0.262          & 0.392          & 0.439          & 4.202           & 0.441          & 1.770             \\
+                                           & (0.13)                                          & (0.29)                                       & (0.08)                                        & (0.11)                  & (0.14)           & (0.05)         & (0.14)         & (0.13)         & (1.87)          & (0.25)         & (0.02)            \\
+            \addlinespace[0.2em]
+            Constraint Optimization        & 0.251                                           & 0.303                                        & 0.324                                         & 0.205                   & 1.012            & 0.302          & 0.374          & 0.361          & 4.880           & 0.300          & 0.023             \\
+                                           & (0.03)                                          & (0.10)                                       & (0.03)                                        & (0.01)                  & (0.07)           & (0.03)         & (0.07)         & (0.02)         & (1.03)          & (0.11)         & (0.01)            \\
+            \addlinespace[0.2em]
+            gpt-4o-mini                    & {0.247}                                         & {0.314}                                      & {0.161}                                       & {0.071}                 & {0.838}          & {0.196}        & {0.202}        & {0.604}        & {1.787}         & \textbf{0.784} & 21.084            \\
+                                           & (0.02)                                          & (0.03)                                       & (0.01)                                        & (0.01)                  & (0.05)           & (0.02)         & (0.05)         & (0.03)         & (0.28)          & (0.01)         & (1.36)            \\
+
+            \addlinespace[0.2em]
+            gpt-5.1                        & {0.281}                                         & 0.446                                        & {0.176}                                       & {0.036}                 & {0.853}          & {0.199}        & {0.230}        & {0.483}        & {2.295}         & {0.718}        & 18.742            \\
+                                           & (0.08)                                          & (0.15)                                       & (0.05)                                        & (0.01)                  & (0.07)           & (0.05)         & (0.06)         & (0.15)         & (0.47)          & (0.07)         & (3.52)            \\
+            \addlinespace[0.2em]
+            o4-mini                        & 0.403                                           & 0.777                                        & {0.249}                                       & {0.038}                 & {0.904}          & {0.233}        & {0.262}        & 0.466          & {2.449}         & {0.715}        & 80.423            \\
+                                           & (0.01)                                          & (0.06)                                       & (0.01)                                        & (0.03)                  & (0.04)           & (0.03)         & (0.05)         & (0.11)         & (1.50)          & (0.18)         & (15.85)           \\
+
+            \addlinespace[0.2em]
+            Random Guess                   & 0.283                                           & 0.414                                        & 0.348                                         & 0.258                   & 1.054            & 0.267          & 0.427          & 0.469          & 3.691           & 0.506          & {0.001}           \\
+                                           & (0.08)                                          & (0.19)                                       & (0.11)                                        & (0.13)                  & (0.31)           & (0.09)         & (0.32)         & (0.10)         & (1.67)          & (0.20)         & (0.00)            \\
+            \bottomrule
+        \end{tabular}%
+    }
+    \caption{Reconstruction Performance (Mean $\pm$ Std). \textbf{Bold} indicates best result (excluding Baseline). Ordered by average rank.}
+    \label{tab:results}
+
+\end{table*}

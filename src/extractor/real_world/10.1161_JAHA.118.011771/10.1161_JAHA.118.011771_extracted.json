@@ -1,0 +1,118 @@
+{
+  "study_size": 2294,
+  "groups": [
+    "Kili\ufb01",
+    "Nairobi",
+    "Jackson"
+  ],
+  "group_sizes": {
+    "Kili\ufb01": 1127,
+    "Nairobi": 516,
+    "Jackson": 651
+  },
+  "variables": {
+    "continuous": {
+      "24-hour SBP": {
+        "Kili\ufb01": {
+          "mean": 126,
+          "std": 18,
+          "min_val": null,
+          "max_val": null
+        },
+        "Nairobi": {
+          "mean": 123,
+          "std": 13,
+          "min_val": null,
+          "max_val": null
+        },
+        "Jackson": {
+          "mean": 123,
+          "std": 14,
+          "min_val": null,
+          "max_val": null
+        }
+      }
+    },
+    "ordinal": {
+      "Age": {
+        "Kili\ufb01": {
+          "mean": 41,
+          "std": 22,
+          "min_val": 10,
+          "max_val": 60
+        },
+        "Nairobi": {
+          "mean": 20,
+          "std": 14,
+          "min_val": 10,
+          "max_val": 60
+        },
+        "Jackson": {
+          "mean": 61,
+          "std": 12,
+          "min_val": 21,
+          "max_val": 80
+        }
+      }
+    },
+    "binary": {
+      "Hypertension": {
+        "Kili\ufb01": {
+          "count": 632,
+          "denominator": 1127
+        },
+        "Nairobi": {
+          "count": 145,
+          "denominator": 516
+        },
+        "Jackson": {
+          "count": 403,
+          "denominator": 651
+        }
+      }
+    },
+    "categorical": {
+      "SCT Status": {
+        "Kili\ufb01": {
+          "SCT": 238,
+          "No SCT": 889,
+          "total": 1127
+        },
+        "Nairobi": {
+          "SCT": 82,
+          "No SCT": 434,
+          "total": 516
+        },
+        "Jackson": {
+          "SCT": 58,
+          "No SCT": 593,
+          "total": 651
+        }
+      }
+    }
+  },
+  "statistical_tests": [
+    {
+      "variables": [
+        "Hypertension",
+        "SCT Status"
+      ],
+      "test_type": "chi_square",
+      "p_value": 0.027,
+      "groups": [
+        "Kili\ufb01"
+      ]
+    },
+    {
+      "variables": [
+        "Hypertension",
+        "a+thalassemia"
+      ],
+      "test_type": "chi_square",
+      "p_value": 0.036,
+      "groups": [
+        "Kili\ufb01"
+      ]
+    }
+  ]
+}

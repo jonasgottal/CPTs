@@ -1,0 +1,269 @@
+{
+  "study_size": 156,
+  "groups": [
+    "20% Albumin + Phototherapy",
+    "Saline + Phototherapy"
+  ],
+  "group_sizes": {
+    "20% Albumin + Phototherapy": 75,
+    "Saline + Phototherapy": 76
+  },
+  "variables": {
+    "continuous": {
+      "Age at admission": {
+        "20% Albumin + Phototherapy": {
+          "median": 5,
+          "iqr": "3-6"
+        },
+        "Saline + Phototherapy": {
+          "median": 5,
+          "iqr": "4-6"
+        }
+      },
+      "Estimated gestational weeks": {
+        "20% Albumin + Phototherapy": {
+          "median": 36,
+          "iqr": "36-37"
+        },
+        "Saline + Phototherapy": {
+          "median": 36,
+          "iqr": "36-38"
+        }
+      },
+      "Total serum bilirubin at admission": {
+        "20% Albumin + Phototherapy": {
+          "median": 368,
+          "iqr": "303-456"
+        },
+        "Saline + Phototherapy": {
+          "median": 392,
+          "iqr": "316-510"
+        }
+      },
+      "Mother\u2019s age": {
+        "20% Albumin + Phototherapy": {
+          "median": 24,
+          "iqr": "19-29"
+        },
+        "Saline + Phototherapy": {
+          "median": 24,
+          "iqr": "20-27"
+        }
+      },
+      "Change in bilirubin": {
+        "20% Albumin + Phototherapy": {
+          "median": 152,
+          "iqr": "101-248"
+        },
+        "Saline + Phototherapy": {
+          "median": 159,
+          "iqr": "101-230"
+        }
+      },
+      "Rate of change": {
+        "20% Albumin + Phototherapy": {
+          "median": 2.16,
+          "iqr": "1.5-4.25"
+        },
+        "Saline + Phototherapy": {
+          "median": 1.91,
+          "iqr": "1.19-4.00"
+        }
+      }
+    },
+    "ordinal": {},
+    "binary": {
+      "ABO incompatibility (Yes)": {
+        "20% Albumin + Phototherapy": {
+          "count": 28,
+          "denominator": 59
+        },
+        "Saline + Phototherapy": {
+          "count": 25,
+          "denominator": 69
+        }
+      },
+      "ABO incompatibility (No)": {
+        "20% Albumin + Phototherapy": {
+          "count": 18,
+          "denominator": 59
+        },
+        "Saline + Phototherapy": {
+          "count": 28,
+          "denominator": 69
+        }
+      },
+      "Non-haemolytic causes (Yes)": {
+        "20% Albumin + Phototherapy": {
+          "count": 10,
+          "denominator": 59
+        },
+        "Saline + Phototherapy": {
+          "count": 9,
+          "denominator": 69
+        }
+      },
+      "Non-haemolytic causes (No)": {
+        "20% Albumin + Phototherapy": {
+          "count": 36,
+          "denominator": 59
+        },
+        "Saline + Phototherapy": {
+          "count": 41,
+          "denominator": 69
+        }
+      },
+      "Both haemolytic and non-haemolytic (Yes)": {
+        "20% Albumin + Phototherapy": {
+          "count": 5,
+          "denominator": 59
+        },
+        "Saline + Phototherapy": {
+          "count": 3,
+          "denominator": 69
+        }
+      },
+      "Both haemolytic and non-haemolytic (No)": {
+        "20% Albumin + Phototherapy": {
+          "count": 54,
+          "denominator": 59
+        },
+        "Saline + Phototherapy": {
+          "count": 66,
+          "denominator": 69
+        }
+      },
+      "Unknown causes (Yes)": {
+        "20% Albumin + Phototherapy": {
+          "count": 13,
+          "denominator": 59
+        },
+        "Saline + Phototherapy": {
+          "count": 18,
+          "denominator": 69
+        }
+      },
+      "Unknown causes (No)": {
+        "20% Albumin + Phototherapy": {
+          "count": 46,
+          "denominator": 59
+        },
+        "Saline + Phototherapy": {
+          "count": 51,
+          "denominator": 69
+        }
+      }
+    },
+    "categorical": {}
+  },
+  "statistical_tests": [
+    {
+      "variables": [
+        "Total serum bilirubin at admission"
+      ],
+      "test_type": "wilcoxon_mann_whitney",
+      "test_statistic": 609.0,
+      "p_value": 0.98,
+      "groups": [
+        "20% Albumin + Phototherapy",
+        "Saline + Phototherapy"
+      ]
+    },
+    {
+      "variables": [
+        "Change in bilirubin"
+      ],
+      "test_type": "wilcoxon_mann_whitney",
+      "test_statistic": 540.0,
+      "p_value": 0.39,
+      "groups": [
+        "20% Albumin + Phototherapy",
+        "Saline + Phototherapy"
+      ]
+    },
+    {
+      "variables": [
+        "ABO incompatibility (Yes)"
+      ],
+      "test_type": "chi_square",
+      "test_statistic": 1.85,
+      "p_value": 0.173,
+      "groups": [
+        "20% Albumin + Phototherapy",
+        "Saline + Phototherapy"
+      ]
+    },
+    {
+      "variables": [
+        "Non-haemolytic causes (Yes)"
+      ],
+      "test_type": "chi_square",
+      "test_statistic": 0.21,
+      "p_value": 0.646,
+      "groups": [
+        "20% Albumin + Phototherapy",
+        "Saline + Phototherapy"
+      ]
+    },
+    {
+      "variables": [
+        "Both haemolytic and non-haemolytic (Yes)"
+      ],
+      "test_type": "chi_square",
+      "test_statistic": 0.92,
+      "p_value": 0.336,
+      "groups": [
+        "20% Albumin + Phototherapy",
+        "Saline + Phototherapy"
+      ]
+    },
+    {
+      "variables": [
+        "Unknown causes (Yes)"
+      ],
+      "test_type": "chi_square",
+      "test_statistic": 0.28,
+      "p_value": 0.594,
+      "groups": [
+        "20% Albumin + Phototherapy",
+        "Saline + Phototherapy"
+      ]
+    },
+    {
+      "variables": [
+        "Type of discharge"
+      ],
+      "test_type": "chi_square",
+      "test_statistic": 0.92,
+      "p_value": 0.337,
+      "groups": [
+        "20% Albumin + Phototherapy",
+        "Saline + Phototherapy"
+      ]
+    },
+    {
+      "variables": [
+        "Repeat phototherapy"
+      ],
+      "test_type": "chi_square",
+      "test_statistic": 2.376,
+      "p_value": 0.123,
+      "groups": [
+        "20% Albumin + Phototherapy",
+        "Saline + Phototherapy"
+      ]
+    },
+    {
+      "variables": [
+        "Exchange transfusion"
+      ],
+      "test_type": "chi_square",
+      "test_statistic": 0.364,
+      "p_value": 0.546,
+      "groups": [
+        "20% Albumin + Phototherapy",
+        "Saline + Phototherapy"
+      ]
+    }
+  ]
+}

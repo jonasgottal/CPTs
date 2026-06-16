@@ -1,0 +1,609 @@
+{
+  "study_size": 157,
+  "groups": [
+    "BALB/cJ Tunnel",
+    "BALB/cJ Tail-lift",
+    "CD-1 Tunnel",
+    "CD-1 Tail-lift"
+  ],
+  "group_sizes": {
+    "BALB/cJ Tunnel": 40,
+    "BALB/cJ Tail-lift": 40,
+    "CD-1 Tunnel": 39,
+    "CD-1 Tail-lift": 38
+  },
+  "variables": {
+    "continuous": {
+      "Total litter weight at weaning": {
+        "BALB/cJ Tunnel": {
+          "mean": 52,
+          "ci95": [
+            48.7,
+            55.4
+          ]
+        },
+        "BALB/cJ Tail-lift": {
+          "mean": 51.5,
+          "ci95": [
+            48.1,
+            54.8
+          ]
+        },
+        "CD-1 Tunnel": {
+          "mean": 138.3,
+          "ci95": [
+            135.3,
+            141.5
+          ]
+        },
+        "CD-1 Tail-lift": {
+          "mean": 138.8,
+          "ci95": [
+            135.7,
+            142
+          ]
+        }
+      },
+      "Pup weight at weaning": {
+        "BALB/cJ Tunnel": {
+          "mean": 8.3,
+          "ci95": [
+            7.8,
+            8.8
+          ]
+        },
+        "BALB/cJ Tail-lift": {
+          "mean": 8.2,
+          "ci95": [
+            7.7,
+            8.7
+          ]
+        },
+        "CD-1 Tunnel": {
+          "mean": 9.5,
+          "ci95": [
+            9.1,
+            10
+          ]
+        },
+        "CD-1 Tail-lift": {
+          "mean": 9.9,
+          "ci95": [
+            9.4,
+            10.3
+          ]
+        }
+      },
+      "Sex ratio F/(M + F)": {
+        "BALB/cJ Tunnel": {
+          "mean": 0.46,
+          "ci95": [
+            0.44,
+            0.49
+          ]
+        },
+        "BALB/cJ Tail-lift": {
+          "mean": 0.48,
+          "ci95": [
+            0.45,
+            0.51
+          ]
+        },
+        "CD-1 Tunnel": {
+          "mean": 0.49,
+          "ci95": [
+            0.47,
+            0.51
+          ]
+        },
+        "CD-1 Tail-lift": {
+          "mean": 0.5,
+          "ci95": [
+            0.48,
+            0.52
+          ]
+        }
+      },
+      "Productivity index": {
+        "BALB/cJ Tunnel": {
+          "mean": 1.15,
+          "ci95": [
+            1.1,
+            1.2
+          ]
+        },
+        "BALB/cJ Tail-lift": {
+          "mean": 1.15,
+          "ci95": [
+            1.1,
+            1.2
+          ]
+        },
+        "CD-1 Tunnel": {
+          "mean": 2.69,
+          "ci95": [
+            2.61,
+            2.77
+          ]
+        },
+        "CD-1 Tail-lift": {
+          "mean": 2.69,
+          "ci95": [
+            2.61,
+            2.77
+          ]
+        }
+      }
+    },
+    "ordinal": {
+      "Pups born per litter": {
+        "BALB/cJ Tunnel": {
+          "mean": 6.4,
+          "ci95": [
+            6.0,
+            6.8
+          ]
+        },
+        "BALB/cJ Tail-lift": {
+          "mean": 6.5,
+          "ci95": [
+            6.1,
+            6.9
+          ]
+        },
+        "CD-1 Tunnel": {
+          "mean": 15.3,
+          "ci95": [
+            14.9,
+            15.8
+          ]
+        },
+        "CD-1 Tail-lift": {
+          "mean": 15.2,
+          "ci95": [
+            14.7,
+            15.7
+          ]
+        }
+      },
+      "Pups weaned per litter": {
+        "BALB/cJ Tunnel": {
+          "mean": 5.9,
+          "ci95": [
+            5.5,
+            6.3
+          ]
+        },
+        "BALB/cJ Tail-lift": {
+          "mean": 5.8,
+          "ci95": [
+            5.4,
+            6.2
+          ]
+        },
+        "CD-1 Tunnel": {
+          "mean": 14.5,
+          "ci95": [
+            14,
+            15
+          ]
+        },
+        "CD-1 Tail-lift": {
+          "mean": 14.4,
+          "ci95": [
+            13.8,
+            15
+          ]
+        }
+      },
+      "Interlitter interval": {
+        "BALB/cJ Tunnel": {
+          "mean": 38.3,
+          "ci95": [
+            37.2,
+            39.4
+          ]
+        },
+        "BALB/cJ Tail-lift": {
+          "mean": 38.4,
+          "ci95": [
+            37.3,
+            39.6
+          ]
+        },
+        "CD-1 Tunnel": {
+          "mean": 38.4,
+          "ci95": [
+            38,
+            38.8
+          ]
+        },
+        "CD-1 Tail-lift": {
+          "mean": 38.2,
+          "ci95": [
+            37.8,
+            38.6
+          ]
+        }
+      },
+      "Number of litters": {
+        "BALB/cJ Tunnel": {
+          "mean": 6
+        },
+        "BALB/cJ Tail-lift": {
+          "mean": 6
+        },
+        "CD-1 Tunnel": {
+          "mean": 7
+        },
+        "CD-1 Tail-lift": {
+          "mean": 7
+        }
+      }
+    },
+    "binary": {
+      "Entire litter failed to wean": {
+        "BALB/cJ Tunnel": {
+          "count": 23,
+          "denominator": 224
+        },
+        "BALB/cJ Tail-lift": {
+          "count": 25,
+          "denominator": 220
+        },
+        "CD-1 Tunnel": {
+          "count": 8,
+          "denominator": 268
+        },
+        "CD-1 Tail-lift": {
+          "count": 9,
+          "denominator": 267
+        }
+      },
+      "All-cause dam mortality": {
+        "BALB/cJ Tunnel": {
+          "count": 5,
+          "denominator": 40
+        },
+        "BALB/cJ Tail-lift": {
+          "count": 4,
+          "denominator": 40
+        },
+        "CD-1 Tunnel": {
+          "count": 3,
+          "denominator": 39
+        },
+        "CD-1 Tail-lift": {
+          "count": 2,
+          "denominator": 38
+        }
+      },
+      "Nonproductive pairs > 60 d": {
+        "BALB/cJ Tunnel": {
+          "count": 2,
+          "denominator": 40
+        },
+        "BALB/cJ Tail-lift": {
+          "count": 5,
+          "denominator": 40
+        },
+        "CD-1 Tunnel": {
+          "count": 0,
+          "denominator": 39
+        },
+        "CD-1 Tail-lift": {
+          "count": 2,
+          "denominator": 38
+        }
+      }
+    },
+    "categorical": {
+      "Sex at weaning": {
+        "BALB/cJ Tunnel": {
+          "Female": 611,
+          "Male": 708,
+          "total": 1319
+        },
+        "BALB/cJ Tail-lift": {
+          "Female": 613,
+          "Male": 664,
+          "total": 1277
+        },
+        "CD-1 Tunnel": {
+          "Female": 1894,
+          "Male": 1980,
+          "total": 3874
+        },
+        "CD-1 Tail-lift": {
+          "Female": 1911,
+          "Male": 1929,
+          "total": 3840
+        }
+      }
+    }
+  },
+  "statistical_tests": [
+    {
+      "variables": [
+        "Pups born per litter"
+      ],
+      "test_type": "ranova",
+      "p_value": 0.56,
+      "group_means": [
+        6.4,
+        6.5
+      ],
+      "groups": [
+        "BALB/cJ Tunnel",
+        "BALB/cJ Tail-lift"
+      ]
+    },
+    {
+      "variables": [
+        "Pups weaned per litter"
+      ],
+      "test_type": "ranova",
+      "p_value": 0.72,
+      "group_means": [
+        5.9,
+        5.8
+      ],
+      "groups": [
+        "BALB/cJ Tunnel",
+        "BALB/cJ Tail-lift"
+      ]
+    },
+    {
+      "variables": [
+        "Total litter weight at weaning"
+      ],
+      "test_type": "ranova",
+      "p_value": 0.81,
+      "group_means": [
+        52.0,
+        51.5
+      ],
+      "groups": [
+        "BALB/cJ Tunnel",
+        "BALB/cJ Tail-lift"
+      ]
+    },
+    {
+      "variables": [
+        "Pup weight at weaning"
+      ],
+      "test_type": "ranova",
+      "p_value": 0.8,
+      "group_means": [
+        8.3,
+        8.2
+      ],
+      "groups": [
+        "BALB/cJ Tunnel",
+        "BALB/cJ Tail-lift"
+      ]
+    },
+    {
+      "variables": [
+        "Interlitter interval"
+      ],
+      "test_type": "ranova",
+      "p_value": 0.89,
+      "group_means": [
+        38.3,
+        38.4
+      ],
+      "groups": [
+        "BALB/cJ Tunnel",
+        "BALB/cJ Tail-lift"
+      ]
+    },
+    {
+      "variables": [
+        "Sex ratio F/(M + F)"
+      ],
+      "test_type": "ranova",
+      "p_value": 0.39,
+      "group_means": [
+        0.46,
+        0.48
+      ],
+      "groups": [
+        "BALB/cJ Tunnel",
+        "BALB/cJ Tail-lift"
+      ]
+    },
+    {
+      "variables": [
+        "Pups born per litter"
+      ],
+      "test_type": "ranova",
+      "p_value": 0.74,
+      "group_means": [
+        15.3,
+        15.2
+      ],
+      "groups": [
+        "CD-1 Tunnel",
+        "CD-1 Tail-lift"
+      ]
+    },
+    {
+      "variables": [
+        "Pups weaned per litter"
+      ],
+      "test_type": "ranova",
+      "p_value": 0.85,
+      "group_means": [
+        14.5,
+        14.4
+      ],
+      "groups": [
+        "CD-1 Tunnel",
+        "CD-1 Tail-lift"
+      ]
+    },
+    {
+      "variables": [
+        "Total litter weight at weaning"
+      ],
+      "test_type": "ranova",
+      "p_value": 0.83,
+      "group_means": [
+        138.3,
+        138.8
+      ],
+      "groups": [
+        "CD-1 Tunnel",
+        "CD-1 Tail-lift"
+      ]
+    },
+    {
+      "variables": [
+        "Pup weight at weaning"
+      ],
+      "test_type": "ranova",
+      "p_value": 0.3,
+      "group_means": [
+        9.5,
+        9.9
+      ],
+      "groups": [
+        "CD-1 Tunnel",
+        "CD-1 Tail-lift"
+      ]
+    },
+    {
+      "variables": [
+        "Interlitter interval"
+      ],
+      "test_type": "ranova",
+      "p_value": 0.54,
+      "group_means": [
+        38.4,
+        38.2
+      ],
+      "groups": [
+        "CD-1 Tunnel",
+        "CD-1 Tail-lift"
+      ]
+    },
+    {
+      "variables": [
+        "Sex ratio F/(M + F)"
+      ],
+      "test_type": "ranova",
+      "p_value": 0.48,
+      "group_means": [
+        0.49,
+        0.5
+      ],
+      "groups": [
+        "CD-1 Tunnel",
+        "CD-1 Tail-lift"
+      ]
+    },
+    {
+      "variables": [
+        "Pups born per litter",
+        "parity"
+      ],
+      "test_type": "pearson",
+      "test_statistic": -0.13,
+      "p_value": 0.015,
+      "groups": [
+        "BALB/cJ Tunnel",
+        "BALB/cJ Tail-lift"
+      ]
+    },
+    {
+      "variables": [
+        "Pups weaned per litter",
+        "parity"
+      ],
+      "test_type": "pearson",
+      "test_statistic": -0.03,
+      "p_value": 0.63,
+      "groups": [
+        "BALB/cJ Tunnel",
+        "BALB/cJ Tail-lift"
+      ]
+    },
+    {
+      "variables": [
+        "Total litter weight at weaning",
+        "parity"
+      ],
+      "test_type": "pearson",
+      "test_statistic": 0.03,
+      "groups": [
+        "BALB/cJ Tunnel",
+        "BALB/cJ Tail-lift"
+      ]
+    },
+    {
+      "variables": [
+        "Pup weight at weaning",
+        "parity"
+      ],
+      "test_type": "pearson",
+      "test_statistic": -0.03,
+      "groups": [
+        "BALB/cJ Tunnel",
+        "BALB/cJ Tail-lift"
+      ]
+    },
+    {
+      "variables": [
+        "Pups born per litter",
+        "parity"
+      ],
+      "test_type": "pearson",
+      "test_statistic": 0.19,
+      "p_value": 0.0001,
+      "groups": [
+        "CD-1 Tunnel",
+        "CD-1 Tail-lift"
+      ]
+    },
+    {
+      "variables": [
+        "Pups weaned per litter",
+        "parity"
+      ],
+      "test_type": "pearson",
+      "test_statistic": 0.21,
+      "p_value": 0.0001,
+      "groups": [
+        "CD-1 Tunnel",
+        "CD-1 Tail-lift"
+      ]
+    },
+    {
+      "variables": [
+        "Total litter weight at weaning",
+        "parity"
+      ],
+      "test_type": "pearson",
+      "test_statistic": 0.18,
+      "p_value": 0.0001,
+      "groups": [
+        "CD-1 Tunnel",
+        "CD-1 Tail-lift"
+      ]
+    },
+    {
+      "variables": [
+        "Pup weight at weaning",
+        "parity"
+      ],
+      "test_type": "pearson",
+      "test_statistic": 0.14,
+      "p_value": 0.0001,
+      "groups": [
+        "CD-1 Tunnel",
+        "CD-1 Tail-lift"
+      ]
+    }
+  ]
+}

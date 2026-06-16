@@ -1,0 +1,379 @@
+{
+  "study_size": 377,
+  "groups": [
+    "Standard arm",
+    "Rapid arm"
+  ],
+  "group_sizes": {
+    "Standard arm": 190,
+    "Rapid arm": 187
+  },
+  "variables": {
+    "continuous": {
+      "CD4 count": {
+        "Standard arm": {
+          "median": 195,
+          "iqr": [
+            103,
+            322
+          ]
+        },
+        "Rapid arm": {
+          "median": 224,
+          "iqr": [
+            128,
+            327
+          ]
+        }
+      },
+      "Travel time to clinic": {
+        "Standard arm": {
+          "median": 18,
+          "iqr": [
+            9,
+            24
+          ]
+        },
+        "Rapid arm": {
+          "median": 15,
+          "iqr": [
+            9,
+            27
+          ]
+        }
+      }
+    },
+    "ordinal": {
+      "Age": {
+        "Standard arm": {
+          "median": 35.8,
+          "iqr": [
+            29.5,
+            41.6
+          ]
+        },
+        "Rapid arm": {
+          "median": 34.2,
+          "iqr": [
+            29.0,
+            40.1
+          ]
+        }
+      },
+      "Number of other persons in house": {
+        "Standard arm": {
+          "median": 2,
+          "iqr": [
+            1,
+            4
+          ]
+        },
+        "Rapid arm": {
+          "median": 2,
+          "iqr": [
+            1,
+            3
+          ]
+        }
+      }
+    },
+    "binary": {
+      "Sex (Female)": {
+        "Standard arm": {
+          "count": 132,
+          "denominator": 229
+        },
+        "Rapid arm": {
+          "count": 129,
+          "denominator": 234
+        }
+      },
+      "Live alone": {
+        "Standard arm": {
+          "count": 36,
+          "denominator": 229
+        },
+        "Rapid arm": {
+          "count": 41,
+          "denominator": 234
+        }
+      },
+      "Initiated ART within 90 days": {
+        "Standard arm": {
+          "count": 136,
+          "denominator": 190
+        },
+        "Rapid arm": {
+          "count": 182,
+          "denominator": 187
+        }
+      },
+      "Initiated ART within 180 days": {
+        "Standard arm": {
+          "count": 138,
+          "denominator": 190
+        },
+        "Rapid arm": {
+          "count": 183,
+          "denominator": 187
+        }
+      },
+      "Initiated ART and suppressed by 10 months": {
+        "Standard arm": {
+          "count": 96,
+          "denominator": 190
+        },
+        "Rapid arm": {
+          "count": 119,
+          "denominator": 187
+        }
+      },
+      "Retained in care at 10 months": {
+        "Standard arm": {
+          "count": 121,
+          "denominator": 190
+        },
+        "Rapid arm": {
+          "count": 151,
+          "denominator": 187
+        }
+      },
+      "Not initiated ART": {
+        "Standard arm": {
+          "count": 54,
+          "denominator": 190
+        },
+        "Rapid arm": {
+          "count": 5,
+          "denominator": 187
+        }
+      },
+      "Initiated but not suppressed": {
+        "Standard arm": {
+          "count": 40,
+          "denominator": 190
+        },
+        "Rapid arm": {
+          "count": 63,
+          "denominator": 187
+        }
+      },
+      "Retained, unsuppressed viral load test reported": {
+        "Standard arm": {
+          "count": 11,
+          "denominator": 190
+        },
+        "Rapid arm": {
+          "count": 17,
+          "denominator": 187
+        }
+      },
+      "Retained, no viral load test reported": {
+        "Standard arm": {
+          "count": 14,
+          "denominator": 190
+        },
+        "Rapid arm": {
+          "count": 16,
+          "denominator": 187
+        }
+      },
+      "Transferred to another clinic": {
+        "Standard arm": {
+          "count": 1,
+          "denominator": 190
+        },
+        "Rapid arm": {
+          "count": 6,
+          "denominator": 187
+        }
+      },
+      "Died": {
+        "Standard arm": {
+          "count": 3,
+          "denominator": 190
+        },
+        "Rapid arm": {
+          "count": 0,
+          "denominator": 187
+        }
+      },
+      "Lost to follow-up": {
+        "Standard arm": {
+          "count": 11,
+          "denominator": 190
+        },
+        "Rapid arm": {
+          "count": 24,
+          "denominator": 187
+        }
+      },
+      "Presented with TB symptoms": {
+        "Standard arm": {
+          "count": null,
+          "denominator": null
+        },
+        "Rapid arm": {
+          "count": 29,
+          "denominator": 187
+        }
+      },
+      "Confirmed TB diagnosis": {
+        "Standard arm": {
+          "count": null,
+          "denominator": null
+        },
+        "Rapid arm": {
+          "count": 4,
+          "denominator": 187
+        }
+      }
+    },
+    "categorical": {
+      "Enrollment site": {
+        "Standard arm": {
+          "Site 1 (primary health clinic)": 124,
+          "Site 2 (hospital-based HIV clinic)": 105,
+          "total": 229
+        },
+        "Rapid arm": {
+          "Site 1 (primary health clinic)": 126,
+          "Site 2 (hospital-based HIV clinic)": 108,
+          "total": 234
+        }
+      },
+      "Purpose of clinic visit": {
+        "Standard arm": {
+          "Have HIV test (diagnosed today)": 100,
+          "Provide blood sample for CD4 count": 8,
+          "Receive first CD4 count results": 109,
+          "Other": 11,
+          "total": 229
+        },
+        "Rapid arm": {
+          "Have HIV test (diagnosed today)": 90,
+          "Provide blood sample for CD4 count": 10,
+          "Receive first CD4 count results": 112,
+          "Other": 22,
+          "total": 234
+        }
+      },
+      "Reason for treatment eligibility": {
+        "Standard arm": {
+          "CD4 count below threshold": 182,
+          "Clinical condition Stage 3 or 4": 3,
+          "Excluded (not eligible for treatment or study)": 44,
+          "total": 229
+        },
+        "Rapid arm": {
+          "CD4 count below threshold": 183,
+          "Clinical condition Stage 3 or 4": 4,
+          "Excluded (not eligible for treatment or study)": 47,
+          "total": 234
+        }
+      },
+      "Household type": {
+        "Standard arm": {
+          "Formal house or flat": 146,
+          "Informal dwelling or shack": 83,
+          "total": 229
+        },
+        "Rapid arm": {
+          "Formal house or flat": 165,
+          "Informal dwelling or shack": 69,
+          "total": 234
+        }
+      },
+      "Marital status": {
+        "Standard arm": {
+          "Married or long-term partner": 173,
+          "Single, no long-term partner": 41,
+          "Other (widowed, divorced)": 15,
+          "total": 229
+        },
+        "Rapid arm": {
+          "Married or long-term partner": 157,
+          "Single, no long-term partner": 57,
+          "Other (widowed, divorced)": 20,
+          "total": 234
+        }
+      },
+      "Employment status": {
+        "Standard arm": {
+          "Employed formally": 68,
+          "Work informally": 62,
+          "Unemployed, seeking work": 91,
+          "Unemployed, not seeking work": 8
+        },
+        "Rapid arm": {
+          "Employed formally": 90,
+          "Work informally": 54,
+          "Unemployed, seeking work": 84,
+          "Unemployed, not seeking work": 6
+        }
+      }
+    }
+  },
+  "statistical_tests": [
+    {
+      "variables": [
+        "Initiated ART and suppressed by 10 months"
+      ],
+      "test_type": "chi_square",
+      "effect_size": 1.26,
+      "group_means": [
+        0.51,
+        0.64
+      ],
+      "groups": [
+        "Standard arm",
+        "Rapid arm"
+      ]
+    },
+    {
+      "variables": [
+        "Initiated ART within 90 days"
+      ],
+      "test_type": "chi_square",
+      "effect_size": 1.36,
+      "group_means": [
+        0.72,
+        0.97
+      ],
+      "groups": [
+        "Standard arm",
+        "Rapid arm"
+      ]
+    },
+    {
+      "variables": [
+        "Retained in care at 10 months"
+      ],
+      "test_type": "chi_square",
+      "effect_size": 1.27,
+      "group_means": [
+        0.64,
+        0.81
+      ],
+      "groups": [
+        "Standard arm",
+        "Rapid arm"
+      ]
+    },
+    {
+      "variables": [
+        "Attrition from care after ART initiation"
+      ],
+      "test_type": "chi_square",
+      "effect_size": 1.06,
+      "group_means": [
+        0.16,
+        0.16
+      ],
+      "groups": [
+        "Standard arm",
+        "Rapid arm"
+      ]
+    }
+  ]
+}

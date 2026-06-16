@@ -1,0 +1,307 @@
+{
+  "study_size": 3215,
+  "groups": [
+    "Black Female",
+    "Black Male",
+    "White Female",
+    "White Male"
+  ],
+  "group_sizes": {
+    "Black Female": 823,
+    "Black Male": 791,
+    "White Female": 828,
+    "White Male": 835
+  },
+  "variables": {
+    "continuous": {
+      "Composite index": {
+        "Black Female": {
+          "mean": 67.36,
+          "ci95": [
+            66.03,
+            68.69
+          ]
+        },
+        "Black Male": {
+          "mean": 66.96,
+          "ci95": [
+            65.55,
+            68.36
+          ]
+        },
+        "White Female": {
+          "mean": 66.5,
+          "ci95": [
+            65.19,
+            67.82
+          ]
+        },
+        "White Male": {
+          "mean": 66.13,
+          "ci95": [
+            64.76,
+            67.51
+          ]
+        }
+      }
+    },
+    "ordinal": {
+      "Age": {
+        "Black Female": {
+          "median": 49,
+          "min_val": 18,
+          "max_val": 89
+        },
+        "Black Male": {
+          "median": 49,
+          "min_val": 18,
+          "max_val": 89
+        },
+        "White Female": {
+          "median": 49,
+          "min_val": 18,
+          "max_val": 89
+        },
+        "White Male": {
+          "median": 49,
+          "min_val": 18,
+          "max_val": 89
+        }
+      },
+      "Mental health": {
+        "Black Female": {
+          "mean": 3.6,
+          "std": 1.12
+        },
+        "Black Male": {
+          "mean": 3.6,
+          "std": 1.12
+        },
+        "White Female": {
+          "mean": 3.6,
+          "std": 1.12
+        },
+        "White Male": {
+          "mean": 3.6,
+          "std": 1.12
+        }
+      },
+      "Overall health": {
+        "Black Female": {
+          "mean": 3.43,
+          "std": 0.96
+        },
+        "Black Male": {
+          "mean": 3.43,
+          "std": 0.96
+        },
+        "White Female": {
+          "mean": 3.43,
+          "std": 0.96
+        },
+        "White Male": {
+          "mean": 3.43,
+          "std": 0.96
+        }
+      },
+      "Trust in physicians": {
+        "Black Female": {
+          "mean": 3.88,
+          "std": 0.81
+        },
+        "Black Male": {
+          "mean": 3.88,
+          "std": 0.81
+        },
+        "White Female": {
+          "mean": 3.88,
+          "std": 0.81
+        },
+        "White Male": {
+          "mean": 3.88,
+          "std": 0.81
+        }
+      }
+    },
+    "binary": {
+      "College educated": {
+        "Black Female": {
+          "count": 1515,
+          "denominator": 3215
+        },
+        "Black Male": {
+          "count": 1515,
+          "denominator": 3215
+        },
+        "White Female": {
+          "count": 1515,
+          "denominator": 3215
+        },
+        "White Male": {
+          "count": 1515,
+          "denominator": 3215
+        }
+      },
+      "Household income below median level": {
+        "Black Female": {
+          "count": 2086,
+          "denominator": 3156
+        },
+        "Black Male": {
+          "count": 2086,
+          "denominator": 3156
+        },
+        "White Female": {
+          "count": 2086,
+          "denominator": 3156
+        },
+        "White Male": {
+          "count": 2086,
+          "denominator": 3156
+        }
+      },
+      "Medicaid": {
+        "Black Female": {
+          "count": 404,
+          "denominator": 3215
+        },
+        "Black Male": {
+          "count": 404,
+          "denominator": 3215
+        },
+        "White Female": {
+          "count": 404,
+          "denominator": 3215
+        },
+        "White Male": {
+          "count": 404,
+          "denominator": 3215
+        }
+      },
+      "Medicare": {
+        "Black Female": {
+          "count": 362,
+          "denominator": 3215
+        },
+        "Black Male": {
+          "count": 362,
+          "denominator": 3215
+        },
+        "White Female": {
+          "count": 362,
+          "denominator": 3215
+        },
+        "White Male": {
+          "count": 362,
+          "denominator": 3215
+        }
+      },
+      "Uninsured": {
+        "Black Female": {
+          "count": 420,
+          "denominator": 3215
+        },
+        "Black Male": {
+          "count": 420,
+          "denominator": 3215
+        },
+        "White Female": {
+          "count": 420,
+          "denominator": 3215
+        },
+        "White Male": {
+          "count": 420,
+          "denominator": 3215
+        }
+      },
+      "Unpaid medical bills": {
+        "Black Female": {
+          "count": 735,
+          "denominator": 3215
+        },
+        "Black Male": {
+          "count": 735,
+          "denominator": 3215
+        },
+        "White Female": {
+          "count": 735,
+          "denominator": 3215
+        },
+        "White Male": {
+          "count": 735,
+          "denominator": 3215
+        }
+      },
+      "\u001e1 Emergency department visit in past 6 mo": {
+        "Black Female": {
+          "count": 609,
+          "denominator": 3215
+        },
+        "Black Male": {
+          "count": 609,
+          "denominator": 3215
+        },
+        "White Female": {
+          "count": 609,
+          "denominator": 3215
+        },
+        "White Male": {
+          "count": 609,
+          "denominator": 3215
+        }
+      }
+    },
+    "categorical": {
+      "Race/ethnicity": {
+        "Black Female": {
+          "White non-Hispanic": 2433,
+          "Black": 333,
+          "Hispanic": 206,
+          "Other": 243,
+          "total": 3215
+        },
+        "Black Male": {
+          "White non-Hispanic": 2433,
+          "Black": 333,
+          "Hispanic": 206,
+          "Other": 243,
+          "total": 3215
+        },
+        "White Female": {
+          "White non-Hispanic": 2433,
+          "Black": 333,
+          "Hispanic": 206,
+          "Other": 243,
+          "total": 3215
+        },
+        "White Male": {
+          "White non-Hispanic": 2433,
+          "Black": 333,
+          "Hispanic": 206,
+          "Other": 243,
+          "total": 3215
+        }
+      }
+    }
+  },
+  "statistical_tests": [
+    {
+      "variables": [
+        "Composite index"
+      ],
+      "test_type": "one_way_anova",
+      "group_means": [
+        67.36,
+        66.96,
+        66.5,
+        66.13
+      ],
+      "groups": [
+        "Black Female",
+        "Black Male",
+        "White Female",
+        "White Male"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,558 @@
+{
+  "study_size": 2294,
+  "groups": [
+    "Kilifi SCT",
+    "Kilifi non-SCT",
+    "Nairobi SCT",
+    "Nairobi non-SCT",
+    "Jackson SCT",
+    "Jackson non-SCT"
+  ],
+  "group_sizes": {
+    "Kilifi SCT": 238,
+    "Kilifi non-SCT": 889,
+    "Nairobi SCT": 82,
+    "Nairobi non-SCT": 434,
+    "Jackson SCT": 58,
+    "Jackson non-SCT": 593
+  },
+  "variables": {
+    "continuous": {
+      "BMI": {
+        "Kilifi SCT": {
+          "mean": 20.6,
+          "std": 3.6
+        },
+        "Kilifi non-SCT": {
+          "mean": 20.6,
+          "std": 3.8
+        },
+        "Nairobi SCT": {
+          "mean": 20.2,
+          "std": 3.9
+        },
+        "Nairobi non-SCT": {
+          "mean": 20.5,
+          "std": 4.3
+        },
+        "Jackson SCT": {
+          "mean": 31.1,
+          "std": 7.0
+        },
+        "Jackson non-SCT": {
+          "mean": 30.9,
+          "std": 6.3
+        }
+      },
+      "HbA1c": {
+        "Kilifi SCT": {
+          "mean": 5.2,
+          "std": 0.6
+        },
+        "Kilifi non-SCT": {
+          "mean": 5.1,
+          "std": 0.8
+        },
+        "Nairobi SCT": {
+          "mean": 5.2,
+          "std": 1.1
+        },
+        "Nairobi non-SCT": {
+          "mean": 5.2,
+          "std": 1.0
+        },
+        "Jackson SCT": {
+          "mean": 6.0,
+          "std": 1.2
+        },
+        "Jackson non-SCT": {
+          "mean": 6.1,
+          "std": 1.3
+        }
+      },
+      "Hemoglobin": {
+        "Kilifi SCT": {
+          "mean": 12.6,
+          "std": 2.0
+        },
+        "Kilifi non-SCT": {
+          "mean": 12.6,
+          "std": 1.6
+        },
+        "Nairobi SCT": {
+          "mean": 13.4,
+          "std": 1.7
+        },
+        "Nairobi non-SCT": {
+          "mean": 13.2,
+          "std": 1.7
+        },
+        "Jackson SCT": {
+          "mean": 12.8,
+          "std": 1.4
+        },
+        "Jackson non-SCT": {
+          "mean": 13.0,
+          "std": 1.4
+        }
+      },
+      "WBC count": {
+        "Kilifi SCT": {
+          "mean": 5.7,
+          "std": 1.5
+        },
+        "Kilifi non-SCT": {
+          "mean": 5.7,
+          "std": 1.4
+        },
+        "Nairobi SCT": {
+          "mean": 5.4,
+          "std": 1.4
+        },
+        "Nairobi non-SCT": {
+          "mean": 5.4,
+          "std": 1.6
+        },
+        "Jackson SCT": {
+          "mean": 4.9,
+          "std": 1.1
+        },
+        "Jackson non-SCT": {
+          "mean": 5.3,
+          "std": 1.5
+        }
+      },
+      "Platelet count": {
+        "Kilifi SCT": {
+          "mean": 267,
+          "std": 97
+        },
+        "Kilifi non-SCT": {
+          "mean": 262,
+          "std": 83
+        },
+        "Nairobi SCT": {
+          "mean": 283,
+          "std": 99
+        },
+        "Nairobi non-SCT": {
+          "mean": 287,
+          "std": 100
+        },
+        "Jackson SCT": {
+          "mean": 230,
+          "std": 58
+        },
+        "Jackson non-SCT": {
+          "mean": 243,
+          "std": 61
+        }
+      },
+      "Plasma osmolality": {
+        "Kilifi SCT": {
+          "mean": 290,
+          "std": 6.6
+        },
+        "Kilifi non-SCT": {
+          "mean": 290,
+          "std": 5.8
+        },
+        "Nairobi SCT": {
+          "mean": 291,
+          "std": 10
+        },
+        "Nairobi non-SCT": {
+          "mean": 291,
+          "std": 11
+        }
+      },
+      "eGFR": {
+        "Kilifi SCT": {
+          "mean": 108,
+          "std": 35
+        },
+        "Kilifi non-SCT": {
+          "mean": 114,
+          "std": 42
+        },
+        "Nairobi SCT": {
+          "mean": 118,
+          "std": 27
+        },
+        "Nairobi non-SCT": {
+          "mean": 115,
+          "std": 24
+        },
+        "Jackson SCT": {
+          "mean": 85,
+          "std": 26
+        },
+        "Jackson non-SCT": {
+          "mean": 87,
+          "std": 26
+        }
+      },
+      "Log UACR": {
+        "Kilifi SCT": {
+          "mean": 1.3,
+          "std": 0.5
+        },
+        "Kilifi non-SCT": {
+          "mean": 1.2,
+          "std": 0.6
+        },
+        "Nairobi SCT": {
+          "mean": 1.3,
+          "std": 0.7
+        },
+        "Nairobi non-SCT": {
+          "mean": 1.5,
+          "std": 0.7
+        },
+        "Jackson SCT": {
+          "mean": 1.06,
+          "std": 0.6
+        },
+        "Jackson non-SCT": {
+          "mean": 0.9,
+          "std": 0.5
+        }
+      },
+      "24-hour SBP": {
+        "Kilifi SCT": {
+          "mean": 126,
+          "std": 18
+        },
+        "Kilifi non-SCT": {
+          "mean": 127,
+          "std": 18
+        },
+        "Nairobi SCT": {
+          "mean": 123,
+          "std": 13
+        },
+        "Nairobi non-SCT": {
+          "mean": 123,
+          "std": 14
+        },
+        "Jackson SCT": {},
+        "Jackson non-SCT": {}
+      }
+    },
+    "ordinal": {
+      "Age": {
+        "Kilifi SCT": {
+          "mean": 41,
+          "std": 22
+        },
+        "Kilifi non-SCT": {
+          "mean": 39,
+          "std": 22
+        },
+        "Nairobi SCT": {
+          "mean": 20,
+          "std": 14
+        },
+        "Nairobi non-SCT": {
+          "mean": 23,
+          "std": 18
+        },
+        "Jackson SCT": {
+          "mean": 61,
+          "std": 12
+        },
+        "Jackson non-SCT": {
+          "mean": 60,
+          "std": 11
+        }
+      }
+    },
+    "binary": {
+      "Women": {
+        "Kilifi SCT": {
+          "count": 126,
+          "denominator": 238
+        },
+        "Kilifi non-SCT": {
+          "count": 528,
+          "denominator": 889
+        },
+        "Nairobi SCT": {
+          "count": 40,
+          "denominator": 82
+        },
+        "Nairobi non-SCT": {
+          "count": 235,
+          "denominator": 434
+        },
+        "Jackson SCT": {
+          "count": 38,
+          "denominator": 58
+        },
+        "Jackson non-SCT": {
+          "count": 392,
+          "denominator": 593
+        }
+      },
+      "Smoker": {
+        "Kilifi SCT": {
+          "count": 17,
+          "denominator": 238
+        },
+        "Kilifi non-SCT": {
+          "count": 78,
+          "denominator": 889
+        },
+        "Nairobi SCT": {
+          "count": 3,
+          "denominator": 82
+        },
+        "Nairobi non-SCT": {
+          "count": 7,
+          "denominator": 434
+        },
+        "Jackson SCT": {
+          "count": 5,
+          "denominator": 58
+        },
+        "Jackson non-SCT": {
+          "count": 74,
+          "denominator": 593
+        }
+      },
+      "Previously diagnosed with hypertension": {
+        "Kilifi SCT": {
+          "count": 37,
+          "denominator": 238
+        },
+        "Kilifi non-SCT": {
+          "count": 127,
+          "denominator": 889
+        },
+        "Nairobi SCT": {
+          "count": 7,
+          "denominator": 82
+        },
+        "Nairobi non-SCT": {
+          "count": 53,
+          "denominator": 434
+        },
+        "Jackson SCT": {
+          "count": 31,
+          "denominator": 58
+        },
+        "Jackson non-SCT": {
+          "count": 367,
+          "denominator": 593
+        }
+      },
+      "Taking antihypertensive medication": {
+        "Kilifi SCT": {
+          "count": 9,
+          "denominator": 238
+        },
+        "Kilifi non-SCT": {
+          "count": 26,
+          "denominator": 889
+        },
+        "Nairobi SCT": {
+          "count": 0,
+          "denominator": 82
+        },
+        "Nairobi non-SCT": {
+          "count": 8,
+          "denominator": 434
+        },
+        "Jackson SCT": {
+          "count": 26,
+          "denominator": 58
+        },
+        "Jackson non-SCT": {
+          "count": 338,
+          "denominator": 593
+        }
+      }
+    },
+    "categorical": {
+      "Study site": {
+        "Kilifi SCT": {
+          "Kilifi": 238,
+          "total": 238
+        },
+        "Kilifi non-SCT": {
+          "Kilifi": 889,
+          "total": 889
+        },
+        "Nairobi SCT": {
+          "Nairobi": 82,
+          "total": 82
+        },
+        "Nairobi non-SCT": {
+          "Nairobi": 434,
+          "total": 434
+        },
+        "Jackson SCT": {
+          "Jackson": 58,
+          "total": 58
+        },
+        "Jackson non-SCT": {
+          "Jackson": 593,
+          "total": 593
+        }
+      }
+    }
+  },
+  "statistical_tests": [
+    {
+      "variables": [
+        "24-hour SBP"
+      ],
+      "test_type": "unpaired_t_test",
+      "p_value": 0.037,
+      "effect_size": -2.4,
+      "group_means": [
+        126.0,
+        127.0
+      ],
+      "groups": [
+        "Kilifi SCT",
+        "Kilifi non-SCT"
+      ]
+    },
+    {
+      "variables": [
+        "24-hour SBP"
+      ],
+      "test_type": "unpaired_t_test",
+      "effect_size": 0.0,
+      "group_means": [
+        123.0,
+        123.0
+      ],
+      "groups": [
+        "Nairobi SCT",
+        "Nairobi non-SCT"
+      ]
+    },
+    {
+      "variables": [
+        "24-hour SBP"
+      ],
+      "test_type": "unpaired_t_test",
+      "effect_size": 0.0,
+      "group_means": [],
+      "groups": [
+        "Jackson SCT",
+        "Jackson non-SCT"
+      ]
+    },
+    {
+      "variables": [
+        "24-hour SBP"
+      ],
+      "test_type": "unpaired_t_test",
+      "p_value": 0.006,
+      "effect_size": -6.1,
+      "groups": [
+        "Kilifi SCT",
+        "Kilifi non-SCT"
+      ]
+    },
+    {
+      "variables": [
+        "24-hour SBP"
+      ],
+      "test_type": "unpaired_t_test",
+      "p_value": 0.041,
+      "effect_size": -3.5,
+      "groups": [
+        "Kilifi SCT",
+        "Nairobi SCT",
+        "Jackson SCT",
+        "Kilifi non-SCT",
+        "Nairobi non-SCT",
+        "Jackson non-SCT"
+      ]
+    },
+    {
+      "variables": [
+        "24-hour SBP"
+      ],
+      "test_type": "unpaired_t_test",
+      "p_value": 0.019,
+      "effect_size": -5.2,
+      "groups": [
+        "Kilifi SCT",
+        "Nairobi SCT",
+        "Jackson SCT",
+        "Kilifi non-SCT",
+        "Nairobi non-SCT",
+        "Jackson non-SCT"
+      ]
+    },
+    {
+      "variables": [
+        "Previously diagnosed with hypertension"
+      ],
+      "test_type": "chi_square",
+      "p_value": 0.027,
+      "effect_size": 0.86,
+      "groups": [
+        "Kilifi SCT",
+        "Kilifi non-SCT"
+      ]
+    },
+    {
+      "variables": [
+        "Previously diagnosed with hypertension"
+      ],
+      "test_type": "chi_square",
+      "p_value": 0.706,
+      "effect_size": 0.96,
+      "groups": [
+        "Nairobi SCT",
+        "Nairobi non-SCT",
+        "Jackson SCT",
+        "Jackson non-SCT"
+      ]
+    },
+    {
+      "variables": [
+        "Previously diagnosed with hypertension"
+      ],
+      "test_type": "chi_square",
+      "p_value": 0.113,
+      "effect_size": 0.82,
+      "groups": [
+        "Kilifi SCT",
+        "Kilifi non-SCT"
+      ]
+    },
+    {
+      "variables": [
+        "Previously diagnosed with hypertension"
+      ],
+      "test_type": "chi_square",
+      "p_value": 0.396,
+      "effect_size": 1.45,
+      "groups": [
+        "Nairobi SCT",
+        "Nairobi non-SCT",
+        "Jackson SCT",
+        "Jackson non-SCT"
+      ]
+    },
+    {
+      "variables": [
+        "Previously diagnosed with hypertension"
+      ],
+      "test_type": "chi_square",
+      "p_value": 0.036,
+      "effect_size": 0.89,
+      "groups": [
+        "Kilifi SCT",
+        "Kilifi non-SCT"
+      ]
+    }
+  ]
+}
